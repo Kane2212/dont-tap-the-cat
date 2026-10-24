@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 3d740449d9eeef544b196b5e1abb9a54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4115987001300657361
+    second: Cute Game UI Icon Grid_0
+  - first:
+      213: 9021374623373012780
+    second: Cute Game UI Icon Grid_1
+  - first:
+      213: 5834363505290547634
+    second: Cute Game UI Icon Grid_2
+  - first:
+      213: -4542320345291012923
+    second: Cute Game UI Icon Grid_3
+  - first:
+      213: 4450043391430419627
+    second: Cute Game UI Icon Grid_4
+  - first:
+      213: 2748751788595085957
+    second: Cute Game UI Icon Grid_5
+  - first:
+      213: 7411757986720947082
+    second: Cute Game UI Icon Grid_6
+  - first:
+      213: 5861738309311182479
+    second: Cute Game UI Icon Grid_7
+  - first:
+      213: 834361449297052327
+    second: Cute Game UI Icon Grid_8
+  - first:
+      213: 1898744585164819496
+    second: Cute Game UI Icon Grid_9
+  - first:
+      213: 4046260814834623999
+    second: Cute Game UI Icon Grid_10
+  - first:
+      213: 4025414499968858744
+    second: Cute Game UI Icon Grid_11
+  - first:
+      213: 4032587628640478585
+    second: Cute Game UI Icon Grid_12
+  - first:
+      213: -7075334027409644700
+    second: Cute Game UI Icon Grid_13
+  - first:
+      213: 2024974715122402627
+    second: Cute Game UI Icon Grid_14
+  - first:
+      213: 4915818081506275005
+    second: Cute Game UI Icon Grid_15
+  - first:
+      213: 6902697922996968902
+    second: Cute Game UI Icon Grid_16
+  - first:
+      213: -784895663554319885
+    second: Cute Game UI Icon Grid_17
+  - first:
+      213: -8029488716284984219
+    second: Cute Game UI Icon Grid_18
+  - first:
+      213: 3480183183077040404
+    second: Cute Game UI Icon Grid_19
+  - first:
+      213: 2351169029786255961
+    second: Cute Game UI Icon Grid_20
+  - first:
+      213: -8208224138296137018
+    second: Cute Game UI Icon Grid_21
+  - first:
+      213: 169551940180171308
+    second: Cute Game UI Icon Grid_22
+  - first:
+      213: 436981027280674152
+    second: Cute Game UI Icon Grid_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b595731a311e6c0800000000000000
+      internalID: -4115987001300657361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 944
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f2fd33c6c523d70800000000000000
+      internalID: 9021374623373012780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 944
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1985f32b2d7f050800000000000000
+      internalID: 5834363505290547634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_3
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 944
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c446e256bf66f0c0800000000000000
+      internalID: -4542320345291012923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 634
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4e84d13eab1cd30800000000000000
+      internalID: 4450043391430419627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 634
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5820eee2037852620800000000000000
+      internalID: 2748751788595085957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_6
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 634
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b9aa7ae9adbd660800000000000000
+      internalID: 7411757986720947082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 634
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86bacc7fe3195150800000000000000
+      internalID: 5861738309311182479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a281a7415f349b00800000000000000
+      internalID: 834361449297052327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 324
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c02f5e322b95a10800000000000000
+      internalID: 1898744585164819496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_10
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 324
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5ecc8e5c4372830800000000000000
+      internalID: 4046260814834623999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 324
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ab95009252dd730800000000000000
+      internalID: 4025414499968858744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97520ca2511a6f730800000000000000
+      internalID: 4032587628640478585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 14
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463a305503d5fcd90800000000000000
+      internalID: -7075334027409644700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_14
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 14
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345c40e46c72a1c10800000000000000
+      internalID: 2024974715122402627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Game UI Icon Grid_15
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 14
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbeaf90008e783440800000000000000
+      internalID: 4915818081506275005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 303459b5ed47cd647839fccfd403253a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":312.0,"y":310.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Cute Game UI Icon Grid_0: -4115987001300657361
+      Cute Game UI Icon Grid_1: 9021374623373012780
+      Cute Game UI Icon Grid_10: 4046260814834623999
+      Cute Game UI Icon Grid_11: 4025414499968858744
+      Cute Game UI Icon Grid_12: 4032587628640478585
+      Cute Game UI Icon Grid_13: -7075334027409644700
+      Cute Game UI Icon Grid_14: 2024974715122402627
+      Cute Game UI Icon Grid_15: 4915818081506275005
+      Cute Game UI Icon Grid_2: 5834363505290547634
+      Cute Game UI Icon Grid_3: -4542320345291012923
+      Cute Game UI Icon Grid_4: 4450043391430419627
+      Cute Game UI Icon Grid_5: 2748751788595085957
+      Cute Game UI Icon Grid_6: 7411757986720947082
+      Cute Game UI Icon Grid_7: 5861738309311182479
+      Cute Game UI Icon Grid_8: 834361449297052327
+      Cute Game UI Icon Grid_9: 1898744585164819496
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

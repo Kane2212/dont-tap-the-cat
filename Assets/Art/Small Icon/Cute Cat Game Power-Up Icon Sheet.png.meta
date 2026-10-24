@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: 3ea63729abb92dc4ba321ce2bd14ad3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8917169476462760392
+    second: Cute Cat Game Power-Up Icon Sheet_0
+  - first:
+      213: 6175073172855132537
+    second: Cute Cat Game Power-Up Icon Sheet_1
+  - first:
+      213: -661464176600855005
+    second: Cute Cat Game Power-Up Icon Sheet_2
+  - first:
+      213: 7497654649441526534
+    second: Cute Cat Game Power-Up Icon Sheet_3
+  - first:
+      213: 596340522350630363
+    second: Cute Cat Game Power-Up Icon Sheet_4
+  - first:
+      213: 3996452350136936142
+    second: Cute Cat Game Power-Up Icon Sheet_5
+  - first:
+      213: 3718505217826549371
+    second: Cute Cat Game Power-Up Icon Sheet_6
+  - first:
+      213: 8814515925293361100
+    second: Cute Cat Game Power-Up Icon Sheet_7
+  - first:
+      213: 1640852155092375656
+    second: Cute Cat Game Power-Up Icon Sheet_8
+  - first:
+      213: -894663853995100424
+    second: Cute Cat Game Power-Up Icon Sheet_9
+  - first:
+      213: -7522301308783674298
+    second: Cute Cat Game Power-Up Icon Sheet_10
+  - first:
+      213: 8175612698122921202
+    second: Cute Cat Game Power-Up Icon Sheet_11
+  - first:
+      213: 3868799817144309718
+    second: Cute Cat Game Power-Up Icon Sheet_12
+  - first:
+      213: -8349347227371597062
+    second: Cute Cat Game Power-Up Icon Sheet_13
+  - first:
+      213: -6122843476187323733
+    second: Cute Cat Game Power-Up Icon Sheet_14
+  - first:
+      213: 8276302482179895655
+    second: Cute Cat Game Power-Up Icon Sheet_15
+  - first:
+      213: 3788699329141726934
+    second: Cute Cat Game Power-Up Icon Sheet_16
+  - first:
+      213: -3328722398109801359
+    second: Cute Cat Game Power-Up Icon Sheet_17
+  - first:
+      213: -5002108372251419093
+    second: Cute Cat Game Power-Up Icon Sheet_18
+  - first:
+      213: -686544398179144010
+    second: Cute Cat Game Power-Up Icon Sheet_19
+  - first:
+      213: -4817617449493247805
+    second: Cute Cat Game Power-Up Icon Sheet_20
+  - first:
+      213: -5458396866992643693
+    second: Cute Cat Game Power-Up Icon Sheet_21
+  - first:
+      213: -9006014405877960634
+    second: Cute Cat Game Power-Up Icon Sheet_22
+  - first:
+      213: 1494934211541654931
+    second: Cute Cat Game Power-Up Icon Sheet_23
+  - first:
+      213: 854420459770976687
+    second: Cute Cat Game Power-Up Icon Sheet_24
+  - first:
+      213: -5223208958673204587
+    second: Cute Cat Game Power-Up Icon Sheet_25
+  - first:
+      213: -7708458683191603680
+    second: Cute Cat Game Power-Up Icon Sheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1d486c46620cb70800000000000000
+      internalID: 8917169476462760392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9711312755442b550800000000000000
+      internalID: 6175073172855132537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e4f0206d102d6f0800000000000000
+      internalID: -661464176600855005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603a48ced250d0860800000000000000
+      internalID: 7497654649441526534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd551e7ab80a64800800000000000000
+      internalID: 596340522350630363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6efa30d30467730800000000000000
+      internalID: 3996452350136936142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 630
+        width: 279
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7eecfb4bc8ca9330800000000000000
+      internalID: 3718505217826549371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 620
+        width: 317
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc762226883735a70800000000000000
+      internalID: 8814515925293361100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8681739675a75c610800000000000000
+      internalID: 1640852155092375656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c541dca586928c94f96c027e350382a7
+      internalID: -894663853995100424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 331
+        width: 306
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c208ebfd52fcc46b1084a49fed8e48
+      internalID: -7522301308783674298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9da70b7fdf31940b297b51b63656fa
+      internalID: 8175612698122921202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d069cf832089743b8aef3de74b85f8
+      internalID: 3868799817144309718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37e2f9091815cc41bc23f29369d3416
+      internalID: -8349347227371597062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 13
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3966536aa28855047b2a4bbd642f4250
+      internalID: -6122843476187323733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Cat Game Power-Up Icon Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d18558e19c9588488f56b4232d92ef2
+      internalID: 8276302482179895655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 04368455c5109684c8e34a8a3bb372e4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":306.0,"y":308.0},"gridSpriteOffset":{"x":25.0,"y":18.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Cute Cat Game Power-Up Icon Sheet_0: 8917169476462760392
+      Cute Cat Game Power-Up Icon Sheet_1: 6175073172855132537
+      Cute Cat Game Power-Up Icon Sheet_10: -7522301308783674298
+      Cute Cat Game Power-Up Icon Sheet_11: 8175612698122921202
+      Cute Cat Game Power-Up Icon Sheet_12: 3868799817144309718
+      Cute Cat Game Power-Up Icon Sheet_13: -8349347227371597062
+      Cute Cat Game Power-Up Icon Sheet_14: -6122843476187323733
+      Cute Cat Game Power-Up Icon Sheet_15: 8276302482179895655
+      Cute Cat Game Power-Up Icon Sheet_2: -661464176600855005
+      Cute Cat Game Power-Up Icon Sheet_3: 7497654649441526534
+      Cute Cat Game Power-Up Icon Sheet_4: 596340522350630363
+      Cute Cat Game Power-Up Icon Sheet_5: 3996452350136936142
+      Cute Cat Game Power-Up Icon Sheet_6: 3718505217826549371
+      Cute Cat Game Power-Up Icon Sheet_7: 8814515925293361100
+      Cute Cat Game Power-Up Icon Sheet_8: 1640852155092375656
+      Cute Cat Game Power-Up Icon Sheet_9: -894663853995100424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

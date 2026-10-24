@@ -1,0 +1,551 @@
+fileFormatVersion: 2
+guid: 6c5f2a02cea276643a0dc6152c2f11cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6250824948243624558
+    second: Cute Kawaii Game UI Icon Grid_0
+  - first:
+      213: -7889376673892578296
+    second: Cute Kawaii Game UI Icon Grid_1
+  - first:
+      213: 8937071619810253567
+    second: Cute Kawaii Game UI Icon Grid_2
+  - first:
+      213: -1425370318720149466
+    second: Cute Kawaii Game UI Icon Grid_3
+  - first:
+      213: -4214849692497124511
+    second: Cute Kawaii Game UI Icon Grid_4
+  - first:
+      213: 7746812270890828262
+    second: Cute Kawaii Game UI Icon Grid_5
+  - first:
+      213: -7641366420120131676
+    second: Cute Kawaii Game UI Icon Grid_6
+  - first:
+      213: -7894815364001831954
+    second: Cute Kawaii Game UI Icon Grid_7
+  - first:
+      213: -1655898526981356837
+    second: Cute Kawaii Game UI Icon Grid_8
+  - first:
+      213: -9101866840748901722
+    second: Cute Kawaii Game UI Icon Grid_9
+  - first:
+      213: 3981245918404112819
+    second: Cute Kawaii Game UI Icon Grid_10
+  - first:
+      213: -4588015555875233446
+    second: Cute Kawaii Game UI Icon Grid_11
+  - first:
+      213: 1081828226290635405
+    second: Cute Kawaii Game UI Icon Grid_12
+  - first:
+      213: -3320980154359541178
+    second: Cute Kawaii Game UI Icon Grid_13
+  - first:
+      213: 1146129256367657526
+    second: Cute Kawaii Game UI Icon Grid_14
+  - first:
+      213: -2802069064162104862
+    second: Cute Kawaii Game UI Icon Grid_15
+  - first:
+      213: 2293041169844157116
+    second: Cute Kawaii Game UI Icon Grid_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62f5311c246fb650800000000000000
+      internalID: 6250824948243624558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c416df6bd438290800000000000000
+      internalID: -7889376673892578296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffad30f994bd60c70800000000000000
+      internalID: 8937071619810253567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_3
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628dc4f3f31183ce0800000000000000
+      internalID: -1425370318720149466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1636b013988d185c0800000000000000
+      internalID: -4214849692497124511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1c51c47b4328b60800000000000000
+      internalID: 7746812270890828262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_6
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a724220ab964f590800000000000000
+      internalID: -7641366420120131676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3ef55414bff6290800000000000000
+      internalID: -7894815364001831954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd20f2320111509e0800000000000000
+      internalID: -1655898526981356837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa3144055cafa180800000000000000
+      internalID: -9101866840748901722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_10
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 313
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b173f9b11a304730800000000000000
+      internalID: 3981245918404112819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_11
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51271809281450c0800000000000000
+      internalID: -4588015555875233446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d825b004a0d630f00800000000000000
+      internalID: 1081828226290635405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6421749152289e1d0800000000000000
+      internalID: -3320980154359541178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_14
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 4
+        width: 267
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6321a787c7ed7ef00800000000000000
+      internalID: 1146129256367657526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Kawaii Game UI Icon Grid_15
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 3
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9a18a380d0d19d0800000000000000
+      internalID: -2802069064162104862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66877c524f295ef4b8093e23540221de
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":306.0,"y":308.0},"gridSpriteOffset":{"x":25.0,"y":18.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Cute Kawaii Game UI Icon Grid_0: 6250824948243624558
+      Cute Kawaii Game UI Icon Grid_1: -7889376673892578296
+      Cute Kawaii Game UI Icon Grid_10: 3981245918404112819
+      Cute Kawaii Game UI Icon Grid_11: -4588015555875233446
+      Cute Kawaii Game UI Icon Grid_12: 1081828226290635405
+      Cute Kawaii Game UI Icon Grid_13: -3320980154359541178
+      Cute Kawaii Game UI Icon Grid_14: 1146129256367657526
+      Cute Kawaii Game UI Icon Grid_15: -2802069064162104862
+      Cute Kawaii Game UI Icon Grid_2: 8937071619810253567
+      Cute Kawaii Game UI Icon Grid_3: -1425370318720149466
+      Cute Kawaii Game UI Icon Grid_4: -4214849692497124511
+      Cute Kawaii Game UI Icon Grid_5: 7746812270890828262
+      Cute Kawaii Game UI Icon Grid_6: -7641366420120131676
+      Cute Kawaii Game UI Icon Grid_7: -7894815364001831954
+      Cute Kawaii Game UI Icon Grid_8: -1655898526981356837
+      Cute Kawaii Game UI Icon Grid_9: -9101866840748901722
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

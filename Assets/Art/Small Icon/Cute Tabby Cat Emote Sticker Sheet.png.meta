@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: d3f383f51558b3440a66fdf1cffe7363
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4883140114786785781
+    second: Cute Tabby Cat Emote Sticker Sheet_0
+  - first:
+      213: -2229599176940343820
+    second: Cute Tabby Cat Emote Sticker Sheet_1
+  - first:
+      213: -2209604119627823471
+    second: Cute Tabby Cat Emote Sticker Sheet_2
+  - first:
+      213: -4501712589383029985
+    second: Cute Tabby Cat Emote Sticker Sheet_3
+  - first:
+      213: -2038752796663969060
+    second: Cute Tabby Cat Emote Sticker Sheet_4
+  - first:
+      213: 4554992491487551187
+    second: Cute Tabby Cat Emote Sticker Sheet_5
+  - first:
+      213: -4572705473901116676
+    second: Cute Tabby Cat Emote Sticker Sheet_6
+  - first:
+      213: -2060331318174297374
+    second: Cute Tabby Cat Emote Sticker Sheet_7
+  - first:
+      213: -6629944373352276396
+    second: Cute Tabby Cat Emote Sticker Sheet_8
+  - first:
+      213: 7234544299308956320
+    second: Cute Tabby Cat Emote Sticker Sheet_9
+  - first:
+      213: 8580928688012496367
+    second: Cute Tabby Cat Emote Sticker Sheet_10
+  - first:
+      213: 699019543922364200
+    second: Cute Tabby Cat Emote Sticker Sheet_11
+  - first:
+      213: 7378445774758877850
+    second: Cute Tabby Cat Emote Sticker Sheet_12
+  - first:
+      213: 5299506366117321068
+    second: Cute Tabby Cat Emote Sticker Sheet_13
+  - first:
+      213: 5491842710009676352
+    second: Cute Tabby Cat Emote Sticker Sheet_14
+  - first:
+      213: 1827017086299432901
+    second: Cute Tabby Cat Emote Sticker Sheet_15
+  - first:
+      213: -8423396689444045593
+    second: Cute Tabby Cat Emote Sticker Sheet_16
+  - first:
+      213: -2014175018859608544
+    second: Cute Tabby Cat Emote Sticker Sheet_17
+  - first:
+      213: -8925154068538796247
+    second: Cute Tabby Cat Emote Sticker Sheet_18
+  - first:
+      213: 120085059489347628
+    second: Cute Tabby Cat Emote Sticker Sheet_19
+  - first:
+      213: 4990482912928568089
+    second: Cute Tabby Cat Emote Sticker Sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 929
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9935aff0664c340800000000000000
+      internalID: 4883140114786785781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fda7fa8c5fde01e0800000000000000
+      internalID: -2229599176940343820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196085b92c8e551e0800000000000000
+      internalID: -2209604119627823471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1babe44044b681c0800000000000000
+      internalID: -4501712589383029985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda820a1225e4b3e0800000000000000
+      internalID: -2038752796663969060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dedfa1a985963f30800000000000000
+      internalID: 4554992491487551187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2c3a5499c7a80c0800000000000000
+      internalID: -4572705473901116676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2db9c059b3863e0800000000000000
+      internalID: -2060331318174297374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45edcb928b4bdf3a0800000000000000
+      internalID: -6629944373352276396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa3320c5b3466460800000000000000
+      internalID: 7234544299308956320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed81f39d25951770800000000000000
+      internalID: 8580928688012496367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f4c86529a63b900800000000000000
+      internalID: 699019543922364200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a1cf6e651856660800000000000000
+      internalID: 7378445774758877850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69185546f0ab8940800000000000000
+      internalID: 5299506366117321068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042027409d1f63c40800000000000000
+      internalID: 5491842710009676352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Tabby Cat Emote Sticker Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7627b2c5eda5910800000000000000
+      internalID: 1827017086299432901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 201e409ee910af645b8d34b74ea3c6f6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":306.0,"y":308.0},"gridSpriteOffset":{"x":25.0,"y":18.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Cute Tabby Cat Emote Sticker Sheet_0: 4883140114786785781
+      Cute Tabby Cat Emote Sticker Sheet_1: -2229599176940343820
+      Cute Tabby Cat Emote Sticker Sheet_10: 8580928688012496367
+      Cute Tabby Cat Emote Sticker Sheet_11: 699019543922364200
+      Cute Tabby Cat Emote Sticker Sheet_12: 7378445774758877850
+      Cute Tabby Cat Emote Sticker Sheet_13: 5299506366117321068
+      Cute Tabby Cat Emote Sticker Sheet_14: 5491842710009676352
+      Cute Tabby Cat Emote Sticker Sheet_15: 1827017086299432901
+      Cute Tabby Cat Emote Sticker Sheet_2: -2209604119627823471
+      Cute Tabby Cat Emote Sticker Sheet_3: -4501712589383029985
+      Cute Tabby Cat Emote Sticker Sheet_4: -2038752796663969060
+      Cute Tabby Cat Emote Sticker Sheet_5: 4554992491487551187
+      Cute Tabby Cat Emote Sticker Sheet_6: -4572705473901116676
+      Cute Tabby Cat Emote Sticker Sheet_7: -2060331318174297374
+      Cute Tabby Cat Emote Sticker Sheet_8: -6629944373352276396
+      Cute Tabby Cat Emote Sticker Sheet_9: 7234544299308956320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

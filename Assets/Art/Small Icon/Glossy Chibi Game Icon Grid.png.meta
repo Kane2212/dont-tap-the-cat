@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 7a3ec33434a8a6048815d28e2ddcb83e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2964122865018836375
+    second: Glossy Chibi Game Icon Grid_0
+  - first:
+      213: 5801295586993860045
+    second: Glossy Chibi Game Icon Grid_1
+  - first:
+      213: 7466776187401073528
+    second: Glossy Chibi Game Icon Grid_2
+  - first:
+      213: 913341577900301703
+    second: Glossy Chibi Game Icon Grid_3
+  - first:
+      213: 6864554587979985494
+    second: Glossy Chibi Game Icon Grid_4
+  - first:
+      213: -7116231790553444744
+    second: Glossy Chibi Game Icon Grid_5
+  - first:
+      213: 3503483181102637914
+    second: Glossy Chibi Game Icon Grid_6
+  - first:
+      213: 6275750428151966772
+    second: Glossy Chibi Game Icon Grid_7
+  - first:
+      213: -7342604303173601402
+    second: Glossy Chibi Game Icon Grid_8
+  - first:
+      213: -2874550029957122543
+    second: Glossy Chibi Game Icon Grid_9
+  - first:
+      213: 324844012236270042
+    second: Glossy Chibi Game Icon Grid_10
+  - first:
+      213: 6106089296762107642
+    second: Glossy Chibi Game Icon Grid_11
+  - first:
+      213: -3164568171201203692
+    second: Glossy Chibi Game Icon Grid_12
+  - first:
+      213: -8465748398658253833
+    second: Glossy Chibi Game Icon Grid_13
+  - first:
+      213: 9050329953404251322
+    second: Glossy Chibi Game Icon Grid_14
+  - first:
+      213: 4710047257766353826
+    second: Glossy Chibi Game Icon Grid_15
+  - first:
+      213: 6420456554046579792
+    second: Glossy Chibi Game Icon Grid_16
+  - first:
+      213: 2437470569693830211
+    second: Glossy Chibi Game Icon Grid_17
+  - first:
+      213: 4473774575445598886
+    second: Glossy Chibi Game Icon Grid_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 923
+        width: 306
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a60f775f15dd6d0800000000000000
+      internalID: -2964122865018836375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd6fcb8997528050800000000000000
+      internalID: 5801295586993860045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873f26bb1615f9760800000000000000
+      internalID: 7466776187401073528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_3
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d97557357dcac00800000000000000
+      internalID: 913341577900301703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 623
+        width: 306
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65233dd170cc34f50800000000000000
+      internalID: 6864554587979985494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e48b0d3e01e3d90800000000000000
+      internalID: -7116231790553444744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_6
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53ad26146fde9030800000000000000
+      internalID: 3503483181102637914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ce00993c1f71750800000000000000
+      internalID: 6275750428151966772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 326
+        width: 306
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687351ff944d91a90800000000000000
+      internalID: -7342604303173601402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 336
+        width: 306
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116315f4afb8b18d0800000000000000
+      internalID: -2874550029957122543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_10
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 338
+        width: 306
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad961c478e3128400800000000000000
+      internalID: 324844012236270042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_11
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 341
+        width: 306
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6f15c2ddf2db450800000000000000
+      internalID: 6106089296762107642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 14
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4127b00d3023514d0800000000000000
+      internalID: -3164568171201203692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 17
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb84245fae938a80800000000000000
+      internalID: -8465748398658253833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_14
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 19
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcecb4542b399d70800000000000000
+      internalID: 9050329953404251322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glossy Chibi Game Icon Grid_15
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 16
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab577aa6037d5140800000000000000
+      internalID: 4710047257766353826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 31210d003de4a1c42b75f00b27430f02
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":306.0,"y":308.0},"gridSpriteOffset":{"x":25.0,"y":18.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Glossy Chibi Game Icon Grid_0: -2964122865018836375
+      Glossy Chibi Game Icon Grid_1: 5801295586993860045
+      Glossy Chibi Game Icon Grid_10: 324844012236270042
+      Glossy Chibi Game Icon Grid_11: 6106089296762107642
+      Glossy Chibi Game Icon Grid_12: -3164568171201203692
+      Glossy Chibi Game Icon Grid_13: -8465748398658253833
+      Glossy Chibi Game Icon Grid_14: 9050329953404251322
+      Glossy Chibi Game Icon Grid_15: 4710047257766353826
+      Glossy Chibi Game Icon Grid_2: 7466776187401073528
+      Glossy Chibi Game Icon Grid_3: 913341577900301703
+      Glossy Chibi Game Icon Grid_4: 6864554587979985494
+      Glossy Chibi Game Icon Grid_5: -7116231790553444744
+      Glossy Chibi Game Icon Grid_6: 3503483181102637914
+      Glossy Chibi Game Icon Grid_7: 6275750428151966772
+      Glossy Chibi Game Icon Grid_8: -7342604303173601402
+      Glossy Chibi Game Icon Grid_9: -2874550029957122543
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

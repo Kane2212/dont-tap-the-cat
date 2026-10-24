@@ -1,0 +1,956 @@
+fileFormatVersion: 2
+guid: 913fe48a0cb43c646ba97807dab59042
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 617749934746209996
+    second: Cute Golden UI Frame Asset Sheet_0
+  - first:
+      213: -9124133905751332492
+    second: Cute Golden UI Frame Asset Sheet_1
+  - first:
+      213: 3835960366551250603
+    second: Cute Golden UI Frame Asset Sheet_2
+  - first:
+      213: 4030619311879700239
+    second: Cute Golden UI Frame Asset Sheet_3
+  - first:
+      213: -4809634690471040027
+    second: Cute Golden UI Frame Asset Sheet_4
+  - first:
+      213: 8146946329189564768
+    second: Cute Golden UI Frame Asset Sheet_5
+  - first:
+      213: -3501587415338780338
+    second: Cute Golden UI Frame Asset Sheet_6
+  - first:
+      213: -7522050685045504629
+    second: Cute Golden UI Frame Asset Sheet_7
+  - first:
+      213: -5571997427714316194
+    second: Cute Golden UI Frame Asset Sheet_8
+  - first:
+      213: -8646218083207646944
+    second: Cute Golden UI Frame Asset Sheet_9
+  - first:
+      213: 2842617076517098280
+    second: Cute Golden UI Frame Asset Sheet_10
+  - first:
+      213: -4578617929091298091
+    second: Cute Golden UI Frame Asset Sheet_11
+  - first:
+      213: -6291319045017390842
+    second: Cute Golden UI Frame Asset Sheet_12
+  - first:
+      213: -7259689045890691506
+    second: Cute Golden UI Frame Asset Sheet_13
+  - first:
+      213: 5046922595789574407
+    second: Cute Golden UI Frame Asset Sheet_14
+  - first:
+      213: -3455622086158264851
+    second: Cute Golden UI Frame Asset Sheet_15
+  - first:
+      213: -5152367604922411961
+    second: Cute Golden UI Frame Asset Sheet_16
+  - first:
+      213: 8496532836992750511
+    second: Cute Golden UI Frame Asset Sheet_17
+  - first:
+      213: 2862720770636576108
+    second: Cute Golden UI Frame Asset Sheet_18
+  - first:
+      213: 4552073109755669565
+    second: Cute Golden UI Frame Asset Sheet_19
+  - first:
+      213: 1182682347016383442
+    second: Cute Golden UI Frame Asset Sheet_20
+  - first:
+      213: 8628202451286429599
+    second: Cute Golden UI Frame Asset Sheet_21
+  - first:
+      213: 3637079657776197398
+    second: Cute Golden UI Frame Asset Sheet_22
+  - first:
+      213: -2010051388870068321
+    second: Cute Golden UI Frame Asset Sheet_23
+  - first:
+      213: -7849450453709427529
+    second: Cute Golden UI Frame Asset Sheet_24
+  - first:
+      213: -1423192412673621853
+    second: Cute Golden UI Frame Asset Sheet_25
+  - first:
+      213: -9213515323692529618
+    second: Cute Golden UI Frame Asset Sheet_26
+  - first:
+      213: -1911121291121909567
+    second: Cute Golden UI Frame Asset Sheet_27
+  - first:
+      213: 7978387918081653572
+    second: Cute Golden UI Frame Asset Sheet_28
+  - first:
+      213: 5539487186749843054
+    second: Cute Golden UI Frame Asset Sheet_29
+  - first:
+      213: 1501923850744562555
+    second: Cute Golden UI Frame Asset Sheet_30
+  - first:
+      213: -8573897672174117303
+    second: Cute Golden UI Frame Asset Sheet_31
+  - first:
+      213: 7770428392199648991
+    second: Cute Golden UI Frame Asset Sheet_32
+  - first:
+      213: 6269700622164907608
+    second: Cute Golden UI Frame Asset Sheet_33
+  - first:
+      213: -876788751682435395
+    second: Cute Golden UI Frame Asset Sheet_34
+  - first:
+      213: 3466032556217261794
+    second: Cute Golden UI Frame Asset Sheet_35
+  - first:
+      213: -3779855867069270010
+    second: Cute Golden UI Frame Asset Sheet_36
+  - first:
+      213: -2729547545233683254
+    second: Cute Golden UI Frame Asset Sheet_37
+  - first:
+      213: -1961135042097401388
+    second: Cute Golden UI Frame Asset Sheet_38
+  - first:
+      213: 2315751393812876512
+    second: Cute Golden UI Frame Asset Sheet_39
+  - first:
+      213: -2200946200007607654
+    second: Cute Golden UI Frame Asset Sheet_40
+  - first:
+      213: 8267281158547235387
+    second: Cute Golden UI Frame Asset Sheet_41
+  - first:
+      213: 8398420872495440433
+    second: Cute Golden UI Frame Asset Sheet_42
+  - first:
+      213: -6485493781237976141
+    second: Cute Golden UI Frame Asset Sheet_43
+  - first:
+      213: 8447535218936836525
+    second: Cute Golden UI Frame Asset Sheet_44
+  - first:
+      213: 2135419117900939335
+    second: Cute Golden UI Frame Asset Sheet_45
+  - first:
+      213: -1355553064834409703
+    second: Cute Golden UI Frame Asset Sheet_46
+  - first:
+      213: 2581424974733858322
+    second: Cute Golden UI Frame Asset Sheet_47
+  - first:
+      213: 207989161941453355
+    second: Cute Golden UI Frame Asset Sheet_48
+  - first:
+      213: 4290266885392618726
+    second: Cute Golden UI Frame Asset Sheet_49
+  - first:
+      213: -5964399673276249535
+    second: Cute Golden UI Frame Asset Sheet_50
+  - first:
+      213: -6703036821051820072
+    second: Cute Golden UI Frame Asset Sheet_51
+  - first:
+      213: 2366489268273650487
+    second: Cute Golden UI Frame Asset Sheet_52
+  - first:
+      213: 4799093178025215651
+    second: Cute Golden UI Frame Asset Sheet_53
+  - first:
+      213: 3072965834114273550
+    second: Cute Golden UI Frame Asset Sheet_54
+  - first:
+      213: -1104391505289879023
+    second: Cute Golden UI Frame Asset Sheet_55
+  - first:
+      213: -1561804048052371858
+    second: Cute Golden UI Frame Asset Sheet_56
+  - first:
+      213: -9053690412480989902
+    second: Cute Golden UI Frame Asset Sheet_57
+  - first:
+      213: -4102430816228654615
+    second: Cute Golden UI Frame Asset Sheet_58
+  - first:
+      213: -4321772704261677496
+    second: Cute Golden UI Frame Asset Sheet_59
+  - first:
+      213: -6365766759433860185
+    second: Cute Golden UI Frame Asset Sheet_60
+  - first:
+      213: -9111988869473567370
+    second: Cute Golden UI Frame Asset Sheet_61
+  - first:
+      213: -4023826376929394770
+    second: Cute Golden UI Frame Asset Sheet_62
+  - first:
+      213: -1433914407085413065
+    second: Cute Golden UI Frame Asset Sheet_63
+  - first:
+      213: -1334390939325566340
+    second: Cute Golden UI Frame Asset Sheet_64
+  - first:
+      213: -7593515158836085568
+    second: Cute Golden UI Frame Asset Sheet_65
+  - first:
+      213: -1346562310036313104
+    second: Cute Golden UI Frame Asset Sheet_66
+  - first:
+      213: 811975930441014307
+    second: Cute Golden UI Frame Asset Sheet_67
+  - first:
+      213: 2560063709651007179
+    second: Cute Golden UI Frame Asset Sheet_68
+  - first:
+      213: -9069173802509363324
+    second: Cute Golden UI Frame Asset Sheet_69
+  - first:
+      213: 9041697927462177599
+    second: Cute Golden UI Frame Asset Sheet_70
+  - first:
+      213: 7491861398387141327
+    second: Cute Golden UI Frame Asset Sheet_71
+  - first:
+      213: 8326696396001281686
+    second: Cute Golden UI Frame Asset Sheet_72
+  - first:
+      213: 2279839131767590410
+    second: Cute Golden UI Frame Asset Sheet_73
+  - first:
+      213: 5881959165216969547
+    second: Cute Golden UI Frame Asset Sheet_74
+  - first:
+      213: -4948184721058495422
+    second: Cute Golden UI Frame Asset Sheet_75
+  - first:
+      213: -4881803262037861510
+    second: Cute Golden UI Frame Asset Sheet_76
+  - first:
+      213: 2589656523028837411
+    second: Cute Golden UI Frame Asset Sheet_77
+  - first:
+      213: -4545190220136063544
+    second: Cute Golden UI Frame Asset Sheet_78
+  - first:
+      213: -5703181429116151209
+    second: Cute Golden UI Frame Asset Sheet_79
+  - first:
+      213: -7984699586820488206
+    second: Cute Golden UI Frame Asset Sheet_80
+  - first:
+      213: 4347243798235718279
+    second: Cute Golden UI Frame Asset Sheet_81
+  - first:
+      213: 3142956529185566113
+    second: Cute Golden UI Frame Asset Sheet_82
+  - first:
+      213: -9054160254718786910
+    second: Cute Golden UI Frame Asset Sheet_83
+  - first:
+      213: 2254333689845454595
+    second: Cute Golden UI Frame Asset Sheet_84
+  - first:
+      213: -7526708626371883656
+    second: Cute Golden UI Frame Asset Sheet_85
+  - first:
+      213: 2806202183178825787
+    second: Cute Golden UI Frame Asset Sheet_86
+  - first:
+      213: -1579296175066456846
+    second: Cute Golden UI Frame Asset Sheet_87
+  - first:
+      213: -1302272862730667278
+    second: Cute Golden UI Frame Asset Sheet_88
+  - first:
+      213: -2357681301593439538
+    second: Cute Golden UI Frame Asset Sheet_89
+  - first:
+      213: 8362643761435784103
+    second: Cute Golden UI Frame Asset Sheet_90
+  - first:
+      213: -6602397847698278704
+    second: Cute Golden UI Frame Asset Sheet_91
+  - first:
+      213: -6926730910100691547
+    second: Cute Golden UI Frame Asset Sheet_92
+  - first:
+      213: -7113234831987080274
+    second: Cute Golden UI Frame Asset Sheet_93
+  - first:
+      213: 5687034653349613139
+    second: Cute Golden UI Frame Asset Sheet_94
+  - first:
+      213: 8973933945556102833
+    second: Cute Golden UI Frame Asset Sheet_95
+  - first:
+      213: 2465174221088230468
+    second: Cute Golden UI Frame Asset Sheet_96
+  - first:
+      213: -5751126827508770591
+    second: Cute Golden UI Frame Asset Sheet_97
+  - first:
+      213: 3701060015833883363
+    second: Cute Golden UI Frame Asset Sheet_98
+  - first:
+      213: 1544682080525755915
+    second: Cute Golden UI Frame Asset Sheet_99
+  - first:
+      213: -5087384320842895153
+    second: Cute Golden UI Frame Asset Sheet_100
+  - first:
+      213: -2651073402592684888
+    second: Cute Golden UI Frame Asset Sheet_101
+  - first:
+      213: 6957744935787252443
+    second: Cute Golden UI Frame Asset Sheet_102
+  - first:
+      213: -1033653524344267624
+    second: Cute Golden UI Frame Asset Sheet_103
+  - first:
+      213: 2700048755992881804
+    second: Cute Golden UI Frame Asset Sheet_104
+  - first:
+      213: -1397647247415559427
+    second: Cute Golden UI Frame Asset Sheet_105
+  - first:
+      213: 4263877195152160373
+    second: Cute Golden UI Frame Asset Sheet_106
+  - first:
+      213: 374493365273859223
+    second: Cute Golden UI Frame Asset Sheet_107
+  - first:
+      213: -5148251904944923770
+    second: Cute Golden UI Frame Asset Sheet_108
+  - first:
+      213: 2909720350365369953
+    second: Cute Golden UI Frame Asset Sheet_109
+  - first:
+      213: 4382000311998228422
+    second: Cute Golden UI Frame Asset Sheet_110
+  - first:
+      213: 8704890571788603633
+    second: Cute Golden UI Frame Asset Sheet_111
+  - first:
+      213: 5995002051707190783
+    second: Cute Golden UI Frame Asset Sheet_112
+  - first:
+      213: -129934175507566243
+    second: Cute Golden UI Frame Asset Sheet_113
+  - first:
+      213: 1176253908204128409
+    second: Cute Golden UI Frame Asset Sheet_114
+  - first:
+      213: -6128278912218437866
+    second: Cute Golden UI Frame Asset Sheet_115
+  - first:
+      213: 9128182980450709016
+    second: Cute Golden UI Frame Asset Sheet_116
+  - first:
+      213: -3399075073087852226
+    second: Cute Golden UI Frame Asset Sheet_117
+  - first:
+      213: -5329305037541645236
+    second: Cute Golden UI Frame Asset Sheet_118
+  - first:
+      213: 5424036598245019172
+    second: Cute Golden UI Frame Asset Sheet_119
+  - first:
+      213: 7766825713498150469
+    second: Cute Golden UI Frame Asset Sheet_120
+  - first:
+      213: 5551292726174951101
+    second: Cute Golden UI Frame Asset Sheet_121
+  - first:
+      213: 3504188144069730968
+    second: Cute Golden UI Frame Asset Sheet_122
+  - first:
+      213: 6497530753267179073
+    second: Cute Golden UI Frame Asset Sheet_123
+  - first:
+      213: 8576702558851394280
+    second: Cute Golden UI Frame Asset Sheet_124
+  - first:
+      213: -5662445383147944531
+    second: Cute Golden UI Frame Asset Sheet_125
+  - first:
+      213: 6395998344628834896
+    second: Cute Golden UI Frame Asset Sheet_126
+  - first:
+      213: -7130184567298827958
+    second: Cute Golden UI Frame Asset Sheet_127
+  - first:
+      213: -6896403419505947668
+    second: Cute Golden UI Frame Asset Sheet_128
+  - first:
+      213: -5478841894025729937
+    second: Cute Golden UI Frame Asset Sheet_129
+  - first:
+      213: -4521456295558022972
+    second: Cute Golden UI Frame Asset Sheet_130
+  - first:
+      213: -5724304184200238263
+    second: Cute Golden UI Frame Asset Sheet_131
+  - first:
+      213: -8438657651481431298
+    second: Cute Golden UI Frame Asset Sheet_132
+  - first:
+      213: -3849722749437758830
+    second: Cute Golden UI Frame Asset Sheet_133
+  - first:
+      213: 1727772960539679160
+    second: Cute Golden UI Frame Asset Sheet_134
+  - first:
+      213: -6677601473691937227
+    second: Cute Golden UI Frame Asset Sheet_135
+  - first:
+      213: 8100246500617563161
+    second: Cute Golden UI Frame Asset Sheet_136
+  - first:
+      213: 2665062652890652627
+    second: Cute Golden UI Frame Asset Sheet_137
+  - first:
+      213: 6526112797431466928
+    second: Cute Golden UI Frame Asset Sheet_138
+  - first:
+      213: -8217904131763613803
+    second: Cute Golden UI Frame Asset Sheet_139
+  - first:
+      213: -6096489462724035180
+    second: Cute Golden UI Frame Asset Sheet_140
+  - first:
+      213: 1949576072109734679
+    second: Cute Golden UI Frame Asset Sheet_141
+  - first:
+      213: 8071427380224098765
+    second: Cute Golden UI Frame Asset Sheet_142
+  - first:
+      213: -4920891174876991585
+    second: Cute Golden UI Frame Asset Sheet_143
+  - first:
+      213: 6306025786128118156
+    second: Cute Golden UI Frame Asset Sheet_144
+  - first:
+      213: 4146505929832749144
+    second: Cute Golden UI Frame Asset Sheet_145
+  - first:
+      213: 7924891401635553854
+    second: Cute Golden UI Frame Asset Sheet_146
+  - first:
+      213: -8044007889112601167
+    second: Cute Golden UI Frame Asset Sheet_147
+  - first:
+      213: 1741874813518108
+    second: Cute Golden UI Frame Asset Sheet_148
+  - first:
+      213: 7405340176254910141
+    second: Cute Golden UI Frame Asset Sheet_149
+  - first:
+      213: 2074917371193425520
+    second: Cute Golden UI Frame Asset Sheet_150
+  - first:
+      213: 4605106909829817660
+    second: Cute Golden UI Frame Asset Sheet_151
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 950
+        width: 260
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce819cea40b29800800000000000000
+      internalID: 617749934746209996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 899
+        width: 394
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4792890fd80906180800000000000000
+      internalID: -9124133905751332492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 895
+        width: 298
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6b3cc21a11c3530800000000000000
+      internalID: 3835960366551250603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 897
+        width: 268
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f3b65b8e2afe730800000000000000
+      internalID: 4030619311879700239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 669
+        width: 268
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebe3174bbeb04db0800000000000000
+      internalID: -4809634690471040027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 653
+        width: 279
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0614483a584cf0170800000000000000
+      internalID: 8146946329189564768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 684
+        width: 256
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49f0c64cccd76fc0800000000000000
+      internalID: -3501587415338780338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 676
+        width: 365
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85016761ce4c9790800000000000000
+      internalID: -7522050685045504629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 386
+        width: 284
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58a2b77cd94ca2b0800000000000000
+      internalID: -5571997427714316194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 376
+        width: 313
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02179d38676720880800000000000000
+      internalID: -8646218083207646944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 389
+        width: 233
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823d2469b21037720800000000000000
+      internalID: 2842617076517098280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 398
+        width: 332
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc4746804b7570c0800000000000000
+      internalID: -4578617929091298091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 334
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715bd38b469c25a4f85c258c1683e559
+      internalID: -6291319045017390842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 141
+        width: 336
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e726d365420ce4fa23aa3cd954580b
+      internalID: -7259689045890691506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 96
+        width: 233
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a382762d15679e749bf557f301567769
+      internalID: 5046922595789574407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Golden UI Frame Asset Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 117
+        width: 220
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f548e1ed50cd948ad09dabc4a075e6
+      internalID: -3455622086158264851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8bdf743a356748d47baaf306c13c6840
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":268.0,"y":311.0},"gridSpriteOffset":{"x":17.0,"y":43.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Cute Golden UI Frame Asset Sheet_0: 617749934746209996
+      Cute Golden UI Frame Asset Sheet_1: -9124133905751332492
+      Cute Golden UI Frame Asset Sheet_10: 2842617076517098280
+      Cute Golden UI Frame Asset Sheet_11: -4578617929091298091
+      Cute Golden UI Frame Asset Sheet_12: -6291319045017390842
+      Cute Golden UI Frame Asset Sheet_13: -7259689045890691506
+      Cute Golden UI Frame Asset Sheet_14: 5046922595789574407
+      Cute Golden UI Frame Asset Sheet_15: -3455622086158264851
+      Cute Golden UI Frame Asset Sheet_2: 3835960366551250603
+      Cute Golden UI Frame Asset Sheet_3: 4030619311879700239
+      Cute Golden UI Frame Asset Sheet_4: -4809634690471040027
+      Cute Golden UI Frame Asset Sheet_5: 8146946329189564768
+      Cute Golden UI Frame Asset Sheet_6: -3501587415338780338
+      Cute Golden UI Frame Asset Sheet_7: -7522050685045504629
+      Cute Golden UI Frame Asset Sheet_8: -5571997427714316194
+      Cute Golden UI Frame Asset Sheet_9: -8646218083207646944
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

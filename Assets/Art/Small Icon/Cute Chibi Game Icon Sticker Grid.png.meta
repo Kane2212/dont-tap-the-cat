@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 02187ecd1819cb84184cc35df440ee69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1594107423663985556
+    second: Cute Chibi Game Icon Sticker Grid_0
+  - first:
+      213: -6285925374618366113
+    second: Cute Chibi Game Icon Sticker Grid_1
+  - first:
+      213: 8209945067712839559
+    second: Cute Chibi Game Icon Sticker Grid_2
+  - first:
+      213: -665095936866183082
+    second: Cute Chibi Game Icon Sticker Grid_3
+  - first:
+      213: -3114037659910345182
+    second: Cute Chibi Game Icon Sticker Grid_4
+  - first:
+      213: -1287567797523647624
+    second: Cute Chibi Game Icon Sticker Grid_5
+  - first:
+      213: -8455280336192384404
+    second: Cute Chibi Game Icon Sticker Grid_6
+  - first:
+      213: -6076267726812199894
+    second: Cute Chibi Game Icon Sticker Grid_7
+  - first:
+      213: 3679198252294302940
+    second: Cute Chibi Game Icon Sticker Grid_8
+  - first:
+      213: 2592783730957425523
+    second: Cute Chibi Game Icon Sticker Grid_9
+  - first:
+      213: 7934591432058526009
+    second: Cute Chibi Game Icon Sticker Grid_10
+  - first:
+      213: -4358293264580953138
+    second: Cute Chibi Game Icon Sticker Grid_11
+  - first:
+      213: 2390994488594966730
+    second: Cute Chibi Game Icon Sticker Grid_12
+  - first:
+      213: -8552281858381192206
+    second: Cute Chibi Game Icon Sticker Grid_13
+  - first:
+      213: 9221649617959341374
+    second: Cute Chibi Game Icon Sticker Grid_14
+  - first:
+      213: -6653072592536721917
+    second: Cute Chibi Game Icon Sticker Grid_15
+  - first:
+      213: -6894137977748925343
+    second: Cute Chibi Game Icon Sticker Grid_16
+  - first:
+      213: -7536165481597682227
+    second: Cute Chibi Game Icon Sticker Grid_17
+  - first:
+      213: 3946119170620046352
+    second: Cute Chibi Game Icon Sticker Grid_18
+  - first:
+      213: 2266327114221684585
+    second: Cute Chibi Game Icon Sticker Grid_19
+  - first:
+      213: -5355315882604343120
+    second: Cute Chibi Game Icon Sticker Grid_20
+  - first:
+      213: -7644319799148288239
+    second: Cute Chibi Game Icon Sticker Grid_21
+  - first:
+      213: -5444846985825630955
+    second: Cute Chibi Game Icon Sticker Grid_22
+  - first:
+      213: -4511382363757038489
+    second: Cute Chibi Game Icon Sticker Grid_23
+  - first:
+      213: -971490919681257986
+    second: Cute Chibi Game Icon Sticker Grid_24
+  - first:
+      213: 54912931571409488
+    second: Cute Chibi Game Icon Sticker Grid_25
+  - first:
+      213: -3579488254028834497
+    second: Cute Chibi Game Icon Sticker Grid_26
+  - first:
+      213: 2281168578182017310
+    second: Cute Chibi Game Icon Sticker Grid_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 923
+        width: 306
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ce1be7eb790e9e0800000000000000
+      internalID: -1594107423663985556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f02411d28e3c8a0800000000000000
+      internalID: -6285925374618366113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 928
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f7e7a7a859fe170800000000000000
+      internalID: 8209945067712839559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_3
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 917
+        width: 304
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658198de4ca15c6f0800000000000000
+      internalID: -665095936866183082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 620
+        width: 306
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22eead74f37b8c4d0800000000000000
+      internalID: -3114037659910345182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 632
+        width: 306
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873fe54f8e3a12ee0800000000000000
+      internalID: -1287567797523647624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_6
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 620
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6258ec055fc8aa80800000000000000
+      internalID: -8455280336192384404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 620
+        width: 306
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24403722b2ccaba0800000000000000
+      internalID: -6076267726812199894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 336
+        width: 306
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc6d3631532f0330800000000000000
+      internalID: 3679198252294302940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b112fe01b6bf320800000000000000
+      internalID: 2592783730957425523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_10
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939d4b14ed45d1e60800000000000000
+      internalID: 7934591432058526009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_11
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 312
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbbca9fd5b3483c0800000000000000
+      internalID: -4358293264580953138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 20
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8ae90c1d48e2120800000000000000
+      internalID: 2390994488594966730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3eb2436f0305980800000000000000
+      internalID: -8552281858381192206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_14
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d45991871e9ff70800000000000000
+      internalID: 9221649617959341374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cute Chibi Game Icon Sticker Grid_15
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 4
+        width: 306
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30626f00ab98ba3a0800000000000000
+      internalID: -6653072592536721917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bbb5390788c915247b8cde6746535a45
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":306.0,"y":308.0},"gridSpriteOffset":{"x":25.0,"y":18.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Cute Chibi Game Icon Sticker Grid_0: -1594107423663985556
+      Cute Chibi Game Icon Sticker Grid_1: -6285925374618366113
+      Cute Chibi Game Icon Sticker Grid_10: 7934591432058526009
+      Cute Chibi Game Icon Sticker Grid_11: -4358293264580953138
+      Cute Chibi Game Icon Sticker Grid_12: 2390994488594966730
+      Cute Chibi Game Icon Sticker Grid_13: -8552281858381192206
+      Cute Chibi Game Icon Sticker Grid_14: 9221649617959341374
+      Cute Chibi Game Icon Sticker Grid_15: -6653072592536721917
+      Cute Chibi Game Icon Sticker Grid_2: 8209945067712839559
+      Cute Chibi Game Icon Sticker Grid_3: -665095936866183082
+      Cute Chibi Game Icon Sticker Grid_4: -3114037659910345182
+      Cute Chibi Game Icon Sticker Grid_5: -1287567797523647624
+      Cute Chibi Game Icon Sticker Grid_6: -8455280336192384404
+      Cute Chibi Game Icon Sticker Grid_7: -6076267726812199894
+      Cute Chibi Game Icon Sticker Grid_8: 3679198252294302940
+      Cute Chibi Game Icon Sticker Grid_9: 2592783730957425523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
