@@ -1,8 +1,13 @@
 using UnityEngine;
-
+public enum TargetType
+{
+    Safe,
+    Cat
+}
 public class Target : MonoBehaviour
 {
     private Collider2D targetCollider;
+    public TargetType targetType;
 
     void Awake()
     {
@@ -19,6 +24,8 @@ public class Target : MonoBehaviour
         if (targetCollider.OverlapPoint(worldMousePos))
         {
             Debug.Log("Point++");
+            Destroy(gameObject);
+            Debug.Log("Target destroyed, destroyed effect pop up.");
         }
     }
 

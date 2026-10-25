@@ -4,6 +4,7 @@ public enum AudioType
     SoundEffect,
     Music
 }
+[System.Serializable]
 public class Sound
 {
     public string name;

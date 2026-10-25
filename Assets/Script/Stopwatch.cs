@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,6 +10,9 @@ public class Stopwatch : MonoBehaviour
     private int lastMinutePassed;
 
     public UnityEvent<int> onMinutePassed = new UnityEvent<int>();
+
+
+    public TextMeshProUGUI timeText;
 
     void Start()
     {
@@ -32,6 +36,7 @@ public class Stopwatch : MonoBehaviour
             lastMinutePassed = minutesPassed;
             onMinutePassed.Invoke(minutesPassed);
         }
+        UpdateTimeText();
     }
 
     public void StartTimer()
@@ -62,4 +67,13 @@ public class Stopwatch : MonoBehaviour
         int seconds = Mathf.FloorToInt(elapsedTime % 60f);
         return string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
+    public void UpdateTimeText()
+    {
+        if (timeText != null)
+        {
+            timeText.text = GetTimeString();
+        }
+    }
+
 }

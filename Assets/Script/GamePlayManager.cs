@@ -1,12 +1,7 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-// Script ini bertugas untuk membuat setup sebelum GamePlay disuguhkan pada player
-// Meliputi :
-// - Timer
-// - Score
-// - Lokasi
-//
-// Scipt ini juga bertugas untuk mengatur jalannya flow permainan, sehingga dia adalah pusat untuk keputusan Game State
 
 public enum GameState
 {
@@ -19,6 +14,8 @@ public enum GameState
 public class GamePlayManager : MonoBehaviour
 {
 
+    
+
     private GameState state;
 
     public static GamePlayManager instance;
@@ -29,6 +26,10 @@ public class GamePlayManager : MonoBehaviour
         instance = this;
     }
     private void Start()
+    {
+    }
+
+    public void OnGameStart()
     {
         SoundManager.GetInstance().Play("GamePlay");
     }
@@ -42,4 +43,15 @@ public class GamePlayManager : MonoBehaviour
     {
         return state;
     }
+
+    public void OnPause()
+    {
+
+    }
+
+    public void OnResume()
+    {
+
+    }
+
 }

@@ -13,3 +13,7 @@
 *.csproj
 *.sln
 *.suo
+
+# Local AI development instructions
+/AGENTS.md
+/GAME_SPEC.md
