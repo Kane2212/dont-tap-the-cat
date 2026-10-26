@@ -2,16 +2,24 @@ using UnityEngine;
 
 public class Cat : MonoBehaviour
 {
-    [SerializeField] private GameManager gameManager;
-    private Collider2D catCollider;
+    [SerializeField] private Target target;
 
-    void Awake()
+    private void Awake()
     {
-        catCollider = GetComponent<Collider2D>();
+        if (target == null)
+        {
+            target = GetComponent<Target>();
+        }
     }
 
-    void OnMouseDown()
+    public void HandleCatTap()
     {
-        Debug.Log("Game Over");
+        if (target != null)
+        {
+            target.ResolveTap();
+            return;
+        }
+
+        GamePlayManager.instance?.TriggerGameOver("Cat tapped");
     }
 }

@@ -1,22 +1,18 @@
-using NUnit.Framework;
 using UnityEngine;
-
-// Scope Tanggung jawab
-// 1. Menyimpan final score, high score, dan menyediakan agar bisa diakses oleh result scene
-// 2. Menyediakan konfigurasi permainan yang diperlukan akses antar scene
-// 3. Memastikan bahwa data permanen tetap tersimpan meskipun aplikasi ditutup
-// 4. Harus ada 1 saja di setiap scene
 
 public class GameManager : MonoBehaviour
 {
-
     private int highScore;
-
     private int volumeConfig;
     private bool soundOn = true;
-
+    private int finalScore;
 
     public static GameManager Instance { get; private set; }
+
+    public int FinalScore
+    {
+        get { return finalScore; }
+    }
 
     private void Awake()
     {
@@ -28,10 +24,18 @@ public class GameManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
+
+        LoadSettings();
     }
 
     private void Start()
+    {
+        LoadSettings();
+    }
+
+    private void LoadSettings()
     {
         highScore = PlayerPrefs.GetInt("HighScore", 0);
         volumeConfig = PlayerPrefs.GetInt("VolumeConfig", 100);
@@ -40,13 +44,14 @@ public class GameManager : MonoBehaviour
 
     public void SaveFinalScore(int score)
     {
-        if(score > highScore)
+        finalScore = score;
+        if (score > highScore)
         {
             highScore = score;
             PlayerPrefs.SetInt("HighScore", highScore);
+            PlayerPrefs.Save();
         }
     }
-
 
     public int GetHighScore()
     {
@@ -61,5 +66,24 @@ public class GameManager : MonoBehaviour
     public int GetSoundOn()
     {
         return soundOn ? 1 : 0;
+    }
+
+    public void SetSoundOn(bool enabled)
+    {
+        soundOn = enabled;
+        PlayerPrefs.SetInt("SoundOn", soundOn ? 1 : 0);
+        PlayerPrefs.Save();
+    }
+
+    public void SetVolumeConfig(int value)
+    {
+        volumeConfig = Mathf.Clamp(value, 0, 100);
+        PlayerPrefs.SetInt("VolumeConfig", volumeConfig);
+        PlayerPrefs.Save();
+    }
+
+    public int GetFinalScore()
+    {
+        return finalScore;
     }
 }

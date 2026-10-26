@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,10 +5,9 @@ public class SoundManager : MonoBehaviour
 {
     private static SoundManager instance;
 
-
     public List<Sound> sounds = new List<Sound>();
 
-    void Awake()
+    private void Awake()
     {
         if (instance != null && instance != this)
         {
@@ -19,20 +17,18 @@ public class SoundManager : MonoBehaviour
 
         instance = this;
         DontDestroyOnLoad(gameObject);
-
-        
+        SetAudio();
     }
-
-    private void Start()
-    {
-        
-    }
-
 
     public void SetAudio()
     {
         foreach (Sound sound in sounds)
         {
+            if (sound == null)
+            {
+                continue;
+            }
+
             if (sound.audioSource == null)
             {
                 sound.audioSource = gameObject.AddComponent<AudioSource>();
@@ -50,16 +46,28 @@ public class SoundManager : MonoBehaviour
 
     public void Play(string name)
     {
-        Sound sound = sounds.Find(s => s.name == name);
-        if (sound != null && sound.audioSource != null)
+        if (string.IsNullOrEmpty(name))
         {
-            sound.audioSource.Play();
+            return;
         }
+
+        Sound sound = sounds.Find(s => s != null && s.name == name);
+        if (sound == null || sound.audioSource == null)
+        {
+            return;
+        }
+
+        sound.audioSource.Play();
     }
 
     public void Stop(string name)
     {
-        Sound sound = sounds.Find(s => s.name == name);
+        if (string.IsNullOrEmpty(name))
+        {
+            return;
+        }
+
+        Sound sound = sounds.Find(s => s != null && s.name == name);
         if (sound != null && sound.audioSource != null)
         {
             sound.audioSource.Stop();
@@ -68,17 +76,32 @@ public class SoundManager : MonoBehaviour
 
     public void OnGamePaused(bool isPaused)
     {
-            Sound GamePlaysound = sounds.Find(s => s.name == "GamePlay");
-            Sound PauseSound = sounds.Find(s => s.name == "Pause");
+        Sound gamePlaySound = sounds.Find(s => s != null && s.name == "GamePlay");
+        Sound pauseSound = sounds.Find(s => s != null && s.name == "Pause");
+
         if (isPaused)
         {
-            GamePlaysound.audioSource.Pause();
-            PauseSound.audioSource.Play();
+            if (gamePlaySound != null && gamePlaySound.audioSource != null)
+            {
+                gamePlaySound.audioSource.Pause();
+            }
+
+            if (pauseSound != null && pauseSound.audioSource != null)
+            {
+                pauseSound.audioSource.Play();
+            }
         }
         else
         {
-            GamePlaysound.audioSource.UnPause();
-            PauseSound.audioSource.Stop();
+            if (gamePlaySound != null && gamePlaySound.audioSource != null)
+            {
+                gamePlaySound.audioSource.UnPause();
+            }
+
+            if (pauseSound != null && pauseSound.audioSource != null)
+            {
+                pauseSound.audioSource.Stop();
+            }
         }
     }
 
@@ -86,14 +109,27 @@ public class SoundManager : MonoBehaviour
     {
         foreach (Sound sound in sounds)
         {
-            sound.audioSource.mute = audioOn;
+            if (sound != null && sound.audioSource != null)
+            {
+                sound.audioSource.mute = !audioOn;
+            }
         }
     }
+
     public void SetVolume(float volume)
     {
-        foreach(Sound s in sounds)
+        foreach (Sound s in sounds)
         {
+            if (s == null)
+            {
+                continue;
+            }
+
             s.volume = volume;
+            if (s.audioSource != null)
+            {
+                s.audioSource.volume = volume;
+            }
         }
     }
 }
