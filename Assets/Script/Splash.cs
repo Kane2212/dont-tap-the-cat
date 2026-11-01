@@ -9,6 +9,8 @@ public class Splash : MonoBehaviour
     void Start()
     {
         timer = 0;
+        SoundManager.GetInstance().Play("Splash");
+        SoundManager.GetInstance().Mute(GameManager.Instance.GetSoundOn() ? false : true);
     }
 
     void Update()
@@ -30,6 +32,7 @@ public class Splash : MonoBehaviour
 
     private void LoadMainMenu()
     {
+        SoundManager.GetInstance().Stop("Splash");
         ScreenTransition.GetInstance().TransitionToScene("MainMenu");
         hasTransitioned = true;
     }

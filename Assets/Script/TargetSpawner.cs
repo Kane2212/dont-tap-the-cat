@@ -21,7 +21,8 @@ public class TargetSpawner : MonoBehaviour
     [SerializeField] private float spawnTimer;
     [SerializeField] private float catSpawnTimer;
 
-    private readonly List<Target> activeTargets = new List<Target>();
+    private readonly List<Target> activeSafeTargets = new List<Target>();
+    private readonly List<Target> activeCats = new List<Target>();
 
     public Rect GameplayArea => gameplayArea;
 
@@ -68,7 +69,9 @@ public class TargetSpawner : MonoBehaviour
 
     public void SpawnSafeTarget()
     {
-        if (DifficultyManager.Instance != null && activeTargets.Count >= DifficultyManager.Instance.GetMaxActiveSafeTargets())
+        RemoveInactiveTargets(activeSafeTargets);
+
+        if (DifficultyManager.Instance != null && activeSafeTargets.Count >= DifficultyManager.Instance.GetMaxActiveSafeTargets())
         {
             return;
         }
@@ -89,7 +92,9 @@ public class TargetSpawner : MonoBehaviour
             return;
         }
 
-        if (activeTargets.Count >= DifficultyManager.Instance.GetMaxActiveCats())
+        RemoveInactiveTargets(activeCats);
+
+        if (activeCats.Count >= DifficultyManager.Instance.GetMaxActiveCats())
         {
             return;
         }
@@ -116,8 +121,7 @@ public class TargetSpawner : MonoBehaviour
             return;
         }
 
-        Vector3 position = GetRandomSpawnPosition(definition);
-        if (!IsInsideGameplayArea(position))
+        if (!TryGetRandomSpawnPosition(definition, out Vector3 position))
         {
             return;
         }
@@ -130,41 +134,70 @@ public class TargetSpawner : MonoBehaviour
         }
 
         target.Initialize(definition);
-        activeTargets.Add(target);
+        if (isCat)
+        {
+            activeCats.Add(target);
+        }
+        else
+        {
+            activeSafeTargets.Add(target);
+        }
     }
 
     public Vector3 GetRandomSpawnPosition(TargetDefinition definition)
     {
+        TryGetRandomSpawnPosition(definition, out Vector3 position);
+        return position;
+    }
+
+    public bool TryGetRandomSpawnPosition(TargetDefinition definition, out Vector3 position)
+    {
+        position = Vector3.zero;
+
         for (int attempt = 0; attempt < Mathf.RoundToInt(maxSpawnAttempts); attempt++)
         {
             float x = UnityEngine.Random.Range(gameplayArea.xMin, gameplayArea.xMax);
             float y = UnityEngine.Random.Range(gameplayArea.yMin, gameplayArea.yMax);
             Vector3 candidate = new Vector3(x, y, 0f);
 
-            if (IsValidPosition(candidate))
+            if (IsValidPosition(candidate, definition))
             {
-                return candidate;
+                position = candidate;
+                return true;
             }
         }
 
-        return Vector3.zero;
+        return false;
     }
 
-    private bool IsValidPosition(Vector3 candidate)
+    private bool IsValidPosition(Vector3 candidate, TargetDefinition definition)
     {
-        if (!IsInsideGameplayArea(candidate))
+        if (!IsInsideGameplayArea(candidate, definition))
         {
             return false;
         }
 
-        foreach (Target active in activeTargets)
+        if (definition != null && definition.minSpawnDistanceFromCenter > 0f && candidate.magnitude < definition.minSpawnDistanceFromCenter)
         {
-            if (active == null)
-            {
-                continue;
-            }
+            return false;
+        }
 
-            if (Vector3.Distance(active.transform.position, candidate) < minSpawnSpacing)
+        RemoveInactiveTargets(activeSafeTargets);
+        RemoveInactiveTargets(activeCats);
+
+        float candidateRadius = GetTargetRadius(definition);
+
+        foreach (Target active in activeSafeTargets)
+        {
+            if (Vector3.Distance(active.transform.position, candidate) < minSpawnSpacing + candidateRadius + GetTargetRadius(active.Definition))
+            {
+                return false;
+            }
+        }
+
+        foreach (Target active in activeCats)
+        {
+            if (Vector3.Distance(active.transform.position, candidate) < minSpawnSpacing + candidateRadius + GetTargetRadius(active.Definition))
             {
                 return false;
             }
@@ -175,7 +208,26 @@ public class TargetSpawner : MonoBehaviour
 
     public bool IsInsideGameplayArea(Vector3 position)
     {
-        return position.x >= gameplayArea.xMin && position.x <= gameplayArea.xMax && position.y >= gameplayArea.yMin && position.y <= gameplayArea.yMax;
+        return IsInsideGameplayArea(position, null);
+    }
+
+    public bool IsInsideGameplayArea(Vector3 position, TargetDefinition definition)
+    {
+        float radius = GetTargetRadius(definition);
+        return position.x - radius >= gameplayArea.xMin
+            && position.x + radius <= gameplayArea.xMax
+            && position.y - radius >= gameplayArea.yMin
+            && position.y + radius <= gameplayArea.yMax;
+    }
+
+    private float GetTargetRadius(TargetDefinition definition)
+    {
+        if (definition == null)
+        {
+            return 0f;
+        }
+
+        return definition.colliderSize.magnitude * 0.5f;
     }
 
     private float GetSafeSpawnInterval()
@@ -215,7 +267,7 @@ public class TargetSpawner : MonoBehaviour
                 continue;
             }
 
-            if (definition.targetId.Contains("Healing") && HealthManager.Instance != null && HealthManager.Instance.CurrentHp >= HealthManager.Instance.MaxHp)
+            if (!definition.eligibleWhenHpFull && HealthManager.Instance != null && HealthManager.Instance.CurrentHp >= HealthManager.Instance.MaxHp)
             {
                 continue;
             }
@@ -229,19 +281,19 @@ public class TargetSpawner : MonoBehaviour
             return null;
         }
 
-        float randomWeight = UnityEngine.Random.value * totalWeight;
+        float randomWeight = Random.value * totalWeight;
         float cumulative = 0f;
 
-        foreach (TargetDefinition definition in eligible)
+        for (int i = 0; i < eligible.Count; i++)
         {
-            cumulative += Mathf.Max(0.01f, definition.spawnWeight);
+            cumulative += Mathf.Max(0.01f, eligible[i].spawnWeight);
             if (randomWeight <= cumulative)
             {
-                return definition;
+                return eligible[i];
             }
         }
 
-        return eligible[0];
+        return eligible[eligible.Count - 1];
     }
 
     private TargetDefinition GetCatDefinition()
@@ -256,14 +308,48 @@ public class TargetSpawner : MonoBehaviour
 
     public void ClearActiveTargets()
     {
-        for (int i = activeTargets.Count - 1; i >= 0; i--)
+        DestroyTargets(activeSafeTargets);
+        DestroyTargets(activeCats);
+        activeSafeTargets.Clear();
+        activeCats.Clear();
+    }
+
+    public void UnregisterTarget(Target target)
+    {
+        if (target == null)
         {
-            if (activeTargets[i] != null)
-            {
-                Destroy(activeTargets[i].gameObject);
-            }
+            return;
         }
 
-        activeTargets.Clear();
+        activeSafeTargets.Remove(target);
+        activeCats.Remove(target);
+    }
+
+    private void DestroyTargets(List<Target> targets)
+    {
+        for (int i = targets.Count - 1; i >= 0; i--)
+        {
+            if (targets[i] != null)
+            {
+                Destroy(targets[i].gameObject);
+            }
+        }
+    }
+
+    private void RemoveInactiveTargets(List<Target> targets)
+    {
+        for (int i = targets.Count - 1; i >= 0; i--)
+        {
+            if (targets[i] == null)
+            {
+                targets.RemoveAt(i);
+            }
+        }
+    }
+
+    public void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(new Vector3(gameplayArea.center.x, gameplayArea.center.y, 0f), new Vector3(gameplayArea.width, gameplayArea.height, 0f));
     }
 }

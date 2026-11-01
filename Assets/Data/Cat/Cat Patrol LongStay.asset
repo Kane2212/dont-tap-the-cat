@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6a0859072213741b09066c450ce52f, type: 3}
+  m_Name: Cat Patrol LongStay
+  m_EditorClassIdentifier: Assembly-CSharp::TargetDefinition
+  targetId: Cat_Patrol_Long
+  category: 1
+  unlockPhase: 1
+  movementMode: 1
+  lifetime: 10
+  scoreValue: 0
+  healAmount: 0
+  damageAmount: 0
+  expireDamage: 0
+  triggersGameOver: 1
+  spawnWeight: 1
+  eligibleWhenHpFull: 1
+  minSpawnDistanceFromCenter: 0.3
+  movementSpeed: 0.8
+  patrolDistance: 1.5
+  patrolDirection: {x: 1, y: 0}
+  dynamicMaxSpeed: 0
+  dynamicAcceleration: 0
+  blinkWarningTime: 0
+  blinkMovementDuration: 0
+  sprite: {fileID: 1899895582058450208, guid: e53e8702b18abb24f8fe2cc31ba60538, type: 3}
+  spriteColor: {r: 1, g: 1, b: 1, a: 1}
+  colliderSize: {x: 0.7, y: 0.7}
+  effects:
+  - type: 3
+    amount: 1

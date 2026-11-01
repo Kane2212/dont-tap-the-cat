@@ -81,6 +81,7 @@ public class Target : MonoBehaviour
 
         if (definition == null)
         {
+            UnregisterFromSpawner();
             Destroy(gameObject);
             return;
         }
@@ -88,23 +89,28 @@ public class Target : MonoBehaviour
         if (definition.category == TargetCategory.Cat)
         {
             GamePlayManager.instance.TriggerGameOver("Cat tapped");
+            PlaySound("Cat1");
+            UnregisterFromSpawner();
             Destroy(gameObject);
             return;
         }
 
         if (definition.scoreValue > 0)
         {
-            ScoreManager.Instance?.AddScore(definition.scoreValue);
+            ScoreManager.Instance?.AddScore(definition.scoreValue); 
+            PlaySound("Score");
         }
 
         if (definition.healAmount > 0)
         {
             HealthManager.Instance?.Heal(definition.healAmount);
+            PlaySound("Heal");
         }
 
         if (definition.damageAmount > 0)
         {
             HealthManager.Instance?.TakeDamage(definition.damageAmount);
+            PlaySound("Damage");
         }
 
         if (definition.triggersGameOver)
@@ -112,6 +118,7 @@ public class Target : MonoBehaviour
             GamePlayManager.instance.TriggerGameOver("Fatal target resolved");
         }
 
+        UnregisterFromSpawner();
         Destroy(gameObject);
     }
 
@@ -126,12 +133,14 @@ public class Target : MonoBehaviour
 
         if (definition == null)
         {
+            UnregisterFromSpawner();
             Destroy(gameObject);
             return;
         }
 
         if (definition.category == TargetCategory.Cat)
         {
+            UnregisterFromSpawner();
             Destroy(gameObject);
             return;
         }
@@ -141,7 +150,18 @@ public class Target : MonoBehaviour
             HealthManager.Instance?.TakeDamage(definition.expireDamage);
         }
 
+        UnregisterFromSpawner();
         Destroy(gameObject);
+    }
+
+    private void UnregisterFromSpawner()
+    {
+        TargetSpawner.Instance?.UnregisterTarget(this);
+    }
+
+    private void PlaySound(string soundName)
+    {
+        SoundManager.GetInstance()?.Play(soundName);
     }
 
     public bool ContainsPoint(Vector2 worldPosition)

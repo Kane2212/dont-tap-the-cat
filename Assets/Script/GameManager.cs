@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -5,6 +6,9 @@ public class GameManager : MonoBehaviour
     private int highScore;
     private int volumeConfig;
     private bool soundOn = true;
+    private bool sfxOn = true;
+    private bool musicOn = true;
+    private bool notificationsOn = true;
     private int finalScore;
 
     public static GameManager Instance { get; private set; }
@@ -32,14 +36,25 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        LoadSettings();
+
     }
 
     private void LoadSettings()
     {
         highScore = PlayerPrefs.GetInt("HighScore", 0);
         volumeConfig = PlayerPrefs.GetInt("VolumeConfig", 100);
-        soundOn = PlayerPrefs.GetInt("SoundOn", 1) == 1;
+        if(PlayerPrefs.HasKey("SoundOn"))
+        {
+            soundOn = PlayerPrefs.GetInt("SoundOn") == 0 ? true : false;
+        }
+        else
+        {
+            soundOn = true; // Default value if the key doesn't exist
+        }
+
+        sfxOn = PlayerPrefs.GetInt("SFXOn", 0) == 0;
+        musicOn = PlayerPrefs.GetInt("MusicOn", 0) == 0;
+        notificationsOn = PlayerPrefs.GetInt("NotificationsOn", 0) == 0;
     }
 
     public void SaveFinalScore(int score)
@@ -63,17 +78,18 @@ public class GameManager : MonoBehaviour
         return volumeConfig;
     }
 
-    public int GetSoundOn()
+    public bool GetSoundOn()
     {
-        return soundOn ? 1 : 0;
+        return soundOn;
     }
 
     public void SetSoundOn(bool enabled)
     {
         soundOn = enabled;
-        PlayerPrefs.SetInt("SoundOn", soundOn ? 1 : 0);
+        PlayerPrefs.SetInt("SoundOn", soundOn ? 0 : 1);
         PlayerPrefs.Save();
     }
+
 
     public void SetVolumeConfig(int value)
     {
@@ -85,5 +101,41 @@ public class GameManager : MonoBehaviour
     public int GetFinalScore()
     {
         return finalScore;
+    }
+
+    internal void SetNotificationsOn(bool isNotificationsOn)
+    {
+        PlayerPrefs.SetInt("NotificationsOn", isNotificationsOn ? 0 : 1);
+        notificationsOn = isNotificationsOn;
+        PlayerPrefs.Save();
+    }
+
+    internal void SetSFXOn(bool isSFXOn)
+    {
+        PlayerPrefs.SetInt("SFXOn", isSFXOn ? 0 : 1);
+        sfxOn = isSFXOn;
+        PlayerPrefs.Save();
+    }
+
+    internal void SetMusicOn(bool isMusicOn)
+    {
+        PlayerPrefs.SetInt("MusicOn", isMusicOn ? 0 : 1);
+        musicOn = isMusicOn;
+        PlayerPrefs.Save();
+    }
+
+    internal bool GetSFXOn()
+    {
+        return sfxOn;
+    }
+
+    internal bool GetMusicOn()
+    {
+        return musicOn;
+    }
+
+    internal bool GetNotificationsOn()
+    {
+        return notificationsOn;
     }
 }

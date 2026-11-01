@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -105,13 +106,27 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    public void Mute(bool audioOn)
+    public void Mute(bool condition)
     {
         foreach (Sound sound in sounds)
         {
             if (sound != null && sound.audioSource != null)
             {
-                sound.audioSource.mute = !audioOn;
+                if (condition)
+                {
+                    sound.audioSource.mute = true;
+                }
+                else
+                {
+                    if (GameManager.Instance.GetSFXOn() == true && sound.type == AudioType.SoundEffect)
+                    {
+                        sound.audioSource.mute = false;
+                    }
+                    if (GameManager.Instance.GetMusicOn() == true && sound.type == AudioType.Music)
+                    {
+                        sound.audioSource.mute = false;
+                    }
+                }
             }
         }
     }
@@ -129,6 +144,34 @@ public class SoundManager : MonoBehaviour
             if (s.audioSource != null)
             {
                 s.audioSource.volume = volume;
+            }
+        }
+    }
+
+    internal void MuteSFX(bool isSFXOn)
+    {
+        foreach (Sound sound in sounds)
+        {
+            if (sound != null && sound.audioSource != null)
+            {
+                if (sound.type == AudioType.SoundEffect)
+                {
+                    sound.audioSource.mute = isSFXOn ? false : true;
+                }
+            }
+        }
+    }
+
+    internal void MuteMusic(bool isMusicOn)
+    {
+        foreach(Sound sound in sounds)
+        {
+            if (sound != null && sound.audioSource != null)
+            {
+                if (sound.type == AudioType.Music)
+                {
+                    sound.audioSource.mute = isMusicOn ? false : true;
+                }
             }
         }
     }

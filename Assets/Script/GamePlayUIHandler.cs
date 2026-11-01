@@ -24,11 +24,8 @@ public class GamePlayUIHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI bestScoreText;
 
     [Header("Health")]
-    [SerializeField] private TextMeshProUGUI healthText;
     [SerializeField] private List<Image> heartImages = new List<Image>();
 
-    [Header("Difficulty")]
-    [SerializeField] private TextMeshProUGUI difficultyText;
 
     private bool isSubscribed;
 
@@ -103,10 +100,6 @@ public class GamePlayUIHandler : MonoBehaviour
             HealthManager.Instance.HealthChanged += HandleHealthChanged;
         }
 
-        if (DifficultyManager.Instance != null)
-        {
-            DifficultyManager.Instance.DifficultyChanged += HandleDifficultyChanged;
-        }
 
         if (GamePlayManager.instance != null)
         {
@@ -134,10 +127,6 @@ public class GamePlayUIHandler : MonoBehaviour
             HealthManager.Instance.HealthChanged -= HandleHealthChanged;
         }
 
-        if (DifficultyManager.Instance != null)
-        {
-            DifficultyManager.Instance.DifficultyChanged -= HandleDifficultyChanged;
-        }
 
         if (GamePlayManager.instance != null)
         {
@@ -152,7 +141,6 @@ public class GamePlayUIHandler : MonoBehaviour
     {
         RefreshScore();
         RefreshHealth();
-        RefreshDifficulty();
         RefreshGameStateUI();
     }
 
@@ -178,12 +166,6 @@ public class GamePlayUIHandler : MonoBehaviour
     {
         int currentHp = HealthManager.Instance != null ? HealthManager.Instance.CurrentHp : 0;
         int maxHp = HealthManager.Instance != null ? HealthManager.Instance.MaxHp : 3;
-
-        if (healthText != null)
-        {
-            healthText.text = currentHp + " / " + maxHp;
-        }
-
         if (heartImages != null && heartImages.Count > 0)
         {
             int targetFilled = Mathf.Clamp(currentHp, 0, heartImages.Count);
@@ -197,17 +179,9 @@ public class GamePlayUIHandler : MonoBehaviour
                 bool isFilled = i < targetFilled;
                 heartImages[i].enabled = isFilled;
                 var color = heartImages[i].color;
-                color.a = isFilled ? 1f : 0.25f;
-                heartImages[i].color = color;
+                //color.a = isFilled ? 1f : 0.25f;
+                //heartImages[i].color = color;
             }
-        }
-    }
-
-    private void RefreshDifficulty()
-    {
-        if (difficultyText != null)
-        {
-            difficultyText.text = "Lv. " + (DifficultyManager.Instance != null ? DifficultyManager.Instance.GetCurrentLevel() : 1).ToString();
         }
     }
 
@@ -254,7 +228,7 @@ public class GamePlayUIHandler : MonoBehaviour
 
         if (SoundManager.GetInstance() != null)
         {
-            SoundManager.GetInstance().Play("ButtonClick");
+            SoundManager.GetInstance().Play("TapToStart");
         }
     }
 
@@ -267,7 +241,7 @@ public class GamePlayUIHandler : MonoBehaviour
 
         if (SoundManager.GetInstance() != null)
         {
-            SoundManager.GetInstance().Play("Pause");
+            SoundManager.GetInstance().Play("Pause_Button");
         }
     }
 
@@ -280,7 +254,7 @@ public class GamePlayUIHandler : MonoBehaviour
 
         if (SoundManager.GetInstance() != null)
         {
-            SoundManager.GetInstance().Play("ButtonClick");
+            SoundManager.GetInstance().Play("Resume_Button");
         }
     }
 
@@ -290,14 +264,10 @@ public class GamePlayUIHandler : MonoBehaviour
         {
             GamePlayManager.instance.RetryGame();
         }
-        else
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
 
         if (SoundManager.GetInstance() != null)
         {
-            SoundManager.GetInstance().Play("ButtonClick");
+            SoundManager.GetInstance().Play("UI_Button");
         }
     }
 
@@ -305,10 +275,9 @@ public class GamePlayUIHandler : MonoBehaviour
     {
         if (SoundManager.GetInstance() != null)
         {
-            SoundManager.GetInstance().Play("ButtonClick");
+            SoundManager.GetInstance().Play("UI_Button");
         }
-
-        SceneManager.LoadScene("MainMenu");
+        GamePlayManager.instance?.ReturnToMainmenu();
     }
 
     private void HandleScoreChanged(int score)
@@ -319,11 +288,6 @@ public class GamePlayUIHandler : MonoBehaviour
     private void HandleHealthChanged(int health)
     {
         RefreshHealth();
-    }
-
-    private void HandleDifficultyChanged(int level)
-    {
-        RefreshDifficulty();
     }
 
     private void HandleGameStateChanged(GameState state)
@@ -352,18 +316,4 @@ public class GamePlayUIHandler : MonoBehaviour
         }
     }
 
-    public void Gamestart()
-    {
-        OnStartButtonClicked();
-    }
-
-    public void Pause_button()
-    {
-        OnPauseButtonClicked();
-    }
-
-    public void Resume_button()
-    {
-        OnResumeButtonClicked();
-    }
 }

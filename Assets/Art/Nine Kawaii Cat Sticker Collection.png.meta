@@ -144,11 +144,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 442
-        height: 1231
+        y: 843
+        width: 405
+        height: 404
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: Nine Kawaii Cat Sticker Collection_1
       rect:
         serializedVersion: 2
-        x: 390
-        y: 449
-        width: 448
-        height: 776
+        x: 405
+        y: 843
+        width: 405
+        height: 404
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: Nine Kawaii Cat Sticker Collection_2
       rect:
         serializedVersion: 2
-        x: 788
-        y: 19
-        width: 473
-        height: 829
+        x: 810
+        y: 847
+        width: 451
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: Nine Kawaii Cat Sticker Collection_3
       rect:
         serializedVersion: 2
-        x: 875
-        y: 841
-        width: 386
-        height: 391
+        x: 25
+        y: 454
+        width: 366
+        height: 389
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: Nine Kawaii Cat Sticker Collection_4
       rect:
         serializedVersion: 2
-        x: 436
-        y: 28
-        width: 346
-        height: 412
+        x: 391
+        y: 447
+        width: 419
+        height: 394
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,11 +249,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Nine Kawaii Cat Sticker Collection_5
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 451
+        width: 451
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9594f9a2b8693b04f950d6222b100e99
+      internalID: -603788377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nine Kawaii Cat Sticker Collection_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 425
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f383f0480ad1743bcf4caf5b869d83
+      internalID: -1524509942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nine Kawaii Cat Sticker Collection_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 16
+        width: 357
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af52daf6018b4c47bc16f3e4a42cded
+      internalID: 363089629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nine Kawaii Cat Sticker Collection_8
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 18
+        width: 474
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d6e85c06ec38a4185d5e780fdedb72
+      internalID: -2085523950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8a9d796ce1ced4640aa01dafbe98ffc3
     internalID: 0
     vertices: []
     indices: 
@@ -261,13 +349,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":405.0,"y":400.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Nine Kawaii Cat Sticker Collection_0: 1899895582058450208
       Nine Kawaii Cat Sticker Collection_1: -6441415626459372304
       Nine Kawaii Cat Sticker Collection_2: -6873475709906315483
       Nine Kawaii Cat Sticker Collection_3: -7760915783736548156
       Nine Kawaii Cat Sticker Collection_4: 8658976537622470256
+      Nine Kawaii Cat Sticker Collection_5: -603788377
+      Nine Kawaii Cat Sticker Collection_6: -1524509942
+      Nine Kawaii Cat Sticker Collection_7: 363089629
+      Nine Kawaii Cat Sticker Collection_8: -2085523950
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,6 +12,7 @@ public class TargetBehaviour : MonoBehaviour
     private bool blinkWarningShown;
     private Vector3 pendingBlinkPosition;
     private SpriteRenderer spriteRenderer;
+    private Color baseColor = Color.white;
 
     public void Initialize(Target owner, TargetDefinition def)
     {
@@ -40,7 +41,8 @@ public class TargetBehaviour : MonoBehaviour
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         if (spriteRenderer != null)
         {
-            spriteRenderer.color = definition.spriteColor;
+            baseColor = definition.spriteColor;
+            spriteRenderer.color = baseColor;
         }
     }
 
@@ -72,6 +74,29 @@ public class TargetBehaviour : MonoBehaviour
             default:
                 break;
         }
+
+        UpdateVisualEffect();
+    }
+
+    private void UpdateVisualEffect()
+    {
+        if (spriteRenderer == null)
+        {
+            return;
+        }
+
+        Color color = baseColor;
+
+        if (definition.healAmount > 0)
+        {
+            color.a = Mathf.Lerp(0.65f, 1f, Mathf.PingPong(timer * 3f, 1f));
+        }
+        else if (definition.movementMode == MovementMode.Blink)
+        {
+            color.a = Mathf.Lerp(0.25f, 1f, Mathf.PingPong(timer * 6f, 1f));
+        }
+
+        spriteRenderer.color = color;
     }
 
     private void UpdatePatrol(float deltaTime)
@@ -86,7 +111,7 @@ public class TargetBehaviour : MonoBehaviour
         Vector3 pos = transform.position;
         Vector3 nextPosition = pos + (Vector3)(movementDirection * definition.dynamicMaxSpeed * deltaTime);
 
-        if (!TargetSpawner.Instance.IsInsideGameplayArea(nextPosition))
+        if (TargetSpawner.Instance != null && !TargetSpawner.Instance.IsInsideGameplayArea(nextPosition, definition))
         {
             movementDirection = -movementDirection;
             nextPosition = pos + (Vector3)(movementDirection * definition.dynamicMaxSpeed * deltaTime);
@@ -127,7 +152,9 @@ public class TargetBehaviour : MonoBehaviour
 
     private void MoveToNewBlinkPosition()
     {
-        Vector3 newPosition = TargetSpawner.Instance.GetRandomSpawnPosition(definition);
-        transform.position = newPosition;
+        if (TargetSpawner.Instance != null && TargetSpawner.Instance.TryGetRandomSpawnPosition(definition, out Vector3 newPosition))
+        {
+            transform.position = newPosition;
+        }
     }
 }

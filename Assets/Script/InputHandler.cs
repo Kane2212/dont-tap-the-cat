@@ -28,7 +28,7 @@ public class InputHandler : MonoBehaviour
             Touch touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Began)
             {
-                ProcessTap(touch.position);
+                ProcessTap(touch.position, touch.fingerId);
             }
             return;
         }
@@ -39,9 +39,11 @@ public class InputHandler : MonoBehaviour
         }
     }
 
-    private void ProcessTap(Vector2 screenPosition)
+    private void ProcessTap(Vector2 screenPosition, int pointerId = -1)
     {
-        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+        if (EventSystem.current != null && (pointerId >= 0
+            ? EventSystem.current.IsPointerOverGameObject(pointerId)
+            : EventSystem.current.IsPointerOverGameObject()))
         {
             return;
         }
@@ -56,22 +58,28 @@ public class InputHandler : MonoBehaviour
         }
 
         Target selectedTarget = null;
+        Cat selectedCat = null;
 
         foreach (Collider2D collider in hitColliders)
         {
-            Target target = collider.GetComponent<Target>();
-            if (target != null)
+            Cat cat = collider.GetComponentInParent<Cat>();
+            if (cat != null)
             {
-                selectedTarget = target;
+                selectedCat = cat;
                 break;
             }
 
-            Cat cat = collider.GetComponent<Cat>();
-            if (cat != null)
+            Target target = collider.GetComponentInParent<Target>();
+            if (target != null && selectedTarget == null)
             {
-                cat.HandleCatTap();
-                return;
+                selectedTarget = target;
             }
+        }
+
+        if (selectedCat != null)
+        {
+            selectedCat.HandleCatTap();
+            return;
         }
 
         if (selectedTarget != null && !selectedTarget.IsResolved)

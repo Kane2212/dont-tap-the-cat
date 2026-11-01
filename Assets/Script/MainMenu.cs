@@ -16,6 +16,13 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private Sprite audioOffSprite;
 
 
+    [Header("Settings")]
+    [SerializeField] private Sprite OnSprite;
+    [SerializeField] private Sprite OffSprite;
+    [SerializeField] private Image SFXSprite;
+    [SerializeField] private Image musicSprite;
+    [SerializeField] private Image notificationSprite;
+
 
     // LeaderBoard Display
 
@@ -28,6 +35,11 @@ public class MainMenu : MonoBehaviour
 
     
     private bool isAudioOn = true;
+    private bool isSFXOn = true;
+    private bool isMusicOn = true;
+    private bool isNotificationsOn = true;
+
+    private string language = "ind"; // Default language
 
     void Start()
     {
@@ -38,17 +50,20 @@ public class MainMenu : MonoBehaviour
 
 
         textList = textContainer.GetComponentsInChildren<TextMeshProUGUI>();
-
+        isAudioOn = GameManager.Instance.GetSoundOn();
+        isSFXOn = GameManager.Instance.GetSFXOn();
+        isMusicOn = GameManager.Instance.GetMusicOn();
+        isNotificationsOn = GameManager.Instance.GetNotificationsOn();
         UpdateAudioDisplay();
         SoundManager.GetInstance().Play("MainMenu");
-
-
 
     }
 
     public void PlayGame()
     {
         ScreenTransition.GetInstance().TransitionToScene("Game");
+        SoundManager.GetInstance().Play("UI_Button");
+        SoundManager.GetInstance().Stop("MainMenu");
     }
 
     public void OpenSettings()
@@ -56,6 +71,7 @@ public class MainMenu : MonoBehaviour
         if (settingsPanel != null)
         {
             settingsPanel.SetActive(true);
+            SoundManager.GetInstance().Play("UI_Button");
         }
     }
 
@@ -64,22 +80,27 @@ public class MainMenu : MonoBehaviour
         if (settingsPanel != null)
         {
             settingsPanel.SetActive(false);
+            SoundManager.GetInstance().Play("UI_BackButton");
         }
     }
 
     public void ToggleAudio()
     {
-        isAudioOn = !isAudioOn;
-        UpdateAudioDisplay();
 
         if (isAudioOn)
         {
-            SoundManager.GetInstance().Mute(isAudioOn);
+            isAudioOn = false;
+            GameManager.Instance.SetSoundOn(false);
+            SoundManager.GetInstance().Mute(true);
         }
         else
         {
-            SoundManager.GetInstance().Mute(!isAudioOn);
+            isAudioOn = true;
+            GameManager.Instance.SetSoundOn(true);
+            SoundManager.GetInstance().Mute(false);
+            SoundManager.GetInstance().Play("UI_Button");
         }
+        UpdateAudioDisplay();
     }
     
 
@@ -94,10 +115,41 @@ public class MainMenu : MonoBehaviour
     public void OpenLeaderBoard()
     {
         leaderBoardPanel.SetActive(true);
+        SoundManager.GetInstance().Play("UI_Button");
     }
 
     public void CloseLeaderBoardPanel()
     {
         leaderBoardPanel.SetActive(false);
+        SoundManager.GetInstance().Play("UI_BackButton");
     }
+
+    //Settings Panel Button Functions
+    public void ToggleSFX()
+    {
+        isSFXOn = isSFXOn ? false : true;
+        SoundManager.GetInstance().MuteSFX(isSFXOn);
+        GameManager.Instance.SetSFXOn(isSFXOn);
+        UpdateSettingsDisplay();
+    }
+    public void ToggleMusic()
+    {
+        isMusicOn = isMusicOn ? false : true;
+        SoundManager.GetInstance().MuteMusic(isMusicOn);
+        GameManager.Instance.SetMusicOn(isMusicOn);
+        UpdateSettingsDisplay();
+    }
+    public void ToggleNotifications()
+    {
+        isNotificationsOn = isNotificationsOn ? false : true;
+        GameManager.Instance.SetNotificationsOn(isNotificationsOn);
+        UpdateSettingsDisplay();
+    }
+    public void UpdateSettingsDisplay()
+    {
+        SFXSprite.sprite = isSFXOn ? OnSprite : OffSprite;
+        musicSprite.sprite = isMusicOn ? OnSprite : OffSprite;
+        notificationSprite.sprite = isNotificationsOn ? OnSprite : OffSprite;
+    }
+
 }

@@ -30,6 +30,20 @@ public class GamePlayManager : MonoBehaviour
 
         instance = this;
         DontDestroyOnLoad(gameObject);
+        SceneManager.sceneLoaded += HandleSceneLoaded;
+    }
+
+    private void Start()
+    {
+        InitializeSession();
+    }
+
+    private void OnDestroy()
+    {
+        if (instance == this)
+        {
+            SceneManager.sceneLoaded -= HandleSceneLoaded;
+        }
     }
 
     public void InitializeSession()
@@ -50,16 +64,17 @@ public class GamePlayManager : MonoBehaviour
             return;
         }
 
+        if (state == GameState.Paused)
+        {
+            return;
+        }
+
         if (state == GameState.Finished)
         {
             InitializeSession();
         }
 
         state = GameState.Playing;
-        ScoreManager.Instance?.InitializeSession();
-        HealthManager.Instance?.InitializeSession();
-        DifficultyManager.Instance?.InitializeSession();
-        TargetSpawner.Instance?.InitializeSession();
 
         if (SoundManager.GetInstance() != null)
         {
@@ -96,7 +111,7 @@ public class GamePlayManager : MonoBehaviour
 
     public void TriggerGameOver(string reason = "")
     {
-        if (state == GameState.Finished)
+        if (state == GameState.Finished || gameOverHandled)
         {
             return;
         }
@@ -112,6 +127,7 @@ public class GamePlayManager : MonoBehaviour
 
         if (SoundManager.GetInstance() != null)
         {
+            SoundManager.GetInstance().Stop("GamePlay");
             SoundManager.GetInstance().Play("GameOver");
         }
 
@@ -126,9 +142,34 @@ public class GamePlayManager : MonoBehaviour
 
     public void RetryGame()
     {
-        if (SceneManager.GetActiveScene() != null)
+        InitializeSession();
+        SoundManager.GetInstance()?.Stop("GameOver");
+
+        //if (ScreenTransition.GetInstance() != null)
+        //{
+        //    ScreenTransition.GetInstance().TransitionToScene("Game");
+        //}
+    }
+
+    public void ReturnToMainmenu()
+    {
+        SoundManager.GetInstance()?.Stop("GameOver");
+
+        if (ScreenTransition.GetInstance() != null)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            ScreenTransition.GetInstance().TransitionToScene("MainMenu");
+        }
+        else
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+    }
+
+    private void HandleSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Game")
+        {
+            InitializeSession();
         }
     }
 
