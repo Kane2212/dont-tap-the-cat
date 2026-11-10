@@ -39,6 +39,7 @@ public class ScoreManager : MonoBehaviour
         }
 
         currentScore += amount;
+        GamePlayManager.instance?.RecordCurrentScore(currentScore);
         ScoreChanged?.Invoke(currentScore);
         DifficultyManager.Instance?.UpdateForScore(currentScore);
     }
@@ -56,6 +57,7 @@ public class ScoreManager : MonoBehaviour
         }
 
         currentScore = Mathf.Max(0, score);
+        GamePlayManager.instance?.RecordCurrentScore(currentScore);
         ScoreChanged?.Invoke(currentScore);
     }
 }

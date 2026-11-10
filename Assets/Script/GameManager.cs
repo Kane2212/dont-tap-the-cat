@@ -1,4 +1,6 @@
+using NUnit.Framework;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -60,9 +62,21 @@ public class GameManager : MonoBehaviour
     public void SaveFinalScore(int score)
     {
         finalScore = score;
-        if (score > highScore)
+        List<int> highScores = GetHighScores();
+        for (int i = 0; i < highScores.Count; i++)
         {
-            highScore = score;
+            if (score > highScores[i])
+            {
+                highScores.Insert(i, score);
+                PlayerPrefs.SetInt($"HighScore_{i}", score);
+                PlayerPrefs.Save();
+                break;
+            }
+        }
+        
+        if (finalScore > highScore)
+        {
+            highScore = finalScore;
             PlayerPrefs.SetInt("HighScore", highScore);
             PlayerPrefs.Save();
         }
@@ -137,5 +151,16 @@ public class GameManager : MonoBehaviour
     internal bool GetNotificationsOn()
     {
         return notificationsOn;
+    }
+
+    public List<int> GetHighScores()
+    {
+        List<int> highScores = new List<int>();
+        for (int i = 0; i < 10; i++)
+        {
+            int score = PlayerPrefs.GetInt($"HighScore_{i}", 0);
+            highScores.Add(score);
+        }
+        return highScores;
     }
 }

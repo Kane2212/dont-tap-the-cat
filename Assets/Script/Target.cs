@@ -58,6 +58,7 @@ public class Target : MonoBehaviour
         }
 
         lifetimeRemaining = definition.lifetime;
+
         behaviour?.Initialize(this, definition);
         if (targetCollider == null)
         {
@@ -147,6 +148,7 @@ public class Target : MonoBehaviour
 
         if (definition.expireDamage > 0)
         {
+            GamePlayManager.instance?.RecordMandatorySafeExpiryHpLoss(definition.expireDamage);
             HealthManager.Instance?.TakeDamage(definition.expireDamage);
         }
 

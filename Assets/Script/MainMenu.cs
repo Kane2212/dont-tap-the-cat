@@ -101,6 +101,7 @@ public class MainMenu : MonoBehaviour
             SoundManager.GetInstance().Play("UI_Button");
         }
         UpdateAudioDisplay();
+        UpdateLeaderBoard();
     }
     
 
@@ -109,6 +110,22 @@ public class MainMenu : MonoBehaviour
         if (audioIcon != null)
         {
             audioIcon.sprite = isAudioOn ? audioOnSprite : audioOffSprite;
+        }
+    }
+
+    public void UpdateLeaderBoard()
+    {
+        List<int> highScores = GameManager.Instance.GetHighScores();
+        for (int i = 0; i < textList.Length; i++)
+        {
+            if (i < highScores.Count)
+            {
+                textList[i].text = $"{i + 1}. {highScores[i]}";
+            }
+            else
+            {
+                textList[i].text = $"{i + 1}. ---";
+            }
         }
     }
 

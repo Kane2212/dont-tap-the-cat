@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+[DefaultExecutionOrder(20)]
 public class GamePlayUIHandler : MonoBehaviour
 {
     [Header("Panels")]
@@ -37,7 +37,6 @@ public class GamePlayUIHandler : MonoBehaviour
     private void OnEnable()
     {
         SubscribeToManagers();
-        RefreshAllUI();
     }
 
     private void OnDisable()
@@ -47,7 +46,7 @@ public class GamePlayUIHandler : MonoBehaviour
 
     private void Start()
     {
-        RefreshAllUI();
+
     }
 
     private void BindButtonEvents()
@@ -89,7 +88,6 @@ public class GamePlayUIHandler : MonoBehaviour
         {
             return;
         }
-
         if (ScoreManager.Instance != null)
         {
             ScoreManager.Instance.ScoreChanged += HandleScoreChanged;
@@ -116,7 +114,6 @@ public class GamePlayUIHandler : MonoBehaviour
         {
             return;
         }
-
         if (ScoreManager.Instance != null)
         {
             ScoreManager.Instance.ScoreChanged -= HandleScoreChanged;
@@ -125,6 +122,7 @@ public class GamePlayUIHandler : MonoBehaviour
         if (HealthManager.Instance != null)
         {
             HealthManager.Instance.HealthChanged -= HandleHealthChanged;
+            Debug.Log("Unsubscribed from HealthManager");
         }
 
 
@@ -137,12 +135,6 @@ public class GamePlayUIHandler : MonoBehaviour
         isSubscribed = false;
     }
 
-    private void RefreshAllUI()
-    {
-        RefreshScore();
-        RefreshHealth();
-        RefreshGameStateUI();
-    }
 
     private void RefreshScore()
     {
@@ -169,7 +161,7 @@ public class GamePlayUIHandler : MonoBehaviour
         if (heartImages != null && heartImages.Count > 0)
         {
             int targetFilled = Mathf.Clamp(currentHp, 0, heartImages.Count);
-            for (int i = 0; i < heartImages.Count; i++)
+            for (int i = 1; i < maxHp; i++)
             {
                 if (heartImages[i] == null)
                 {
@@ -178,9 +170,6 @@ public class GamePlayUIHandler : MonoBehaviour
 
                 bool isFilled = i < targetFilled;
                 heartImages[i].enabled = isFilled;
-                var color = heartImages[i].color;
-                //color.a = isFilled ? 1f : 0.25f;
-                //heartImages[i].color = color;
             }
         }
     }
@@ -288,6 +277,7 @@ public class GamePlayUIHandler : MonoBehaviour
     private void HandleHealthChanged(int health)
     {
         RefreshHealth();
+        Debug.Log("Health Changed: " + health);
     }
 
     private void HandleGameStateChanged(GameState state)

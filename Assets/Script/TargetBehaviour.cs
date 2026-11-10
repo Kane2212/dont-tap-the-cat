@@ -43,6 +43,8 @@ public class TargetBehaviour : MonoBehaviour
         {
             baseColor = definition.spriteColor;
             spriteRenderer.color = baseColor;
+            spriteRenderer.sprite = definition.sprite;
+            Debug.Log($"TargetBehaviour initialized for {target.name} with sprite {definition.sprite.name} and color {definition.spriteColor}");
         }
     }
 

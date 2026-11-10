@@ -1752,6 +1752,8 @@ MonoBehaviour:
   catPrefab: {fileID: 6662454776516991824, guid: 97aa6ae022e215b4a8ed6c9f1e95d20b, type: 3}
   safeTargetDefinitions:
   - {fileID: 11400000, guid: a84444261951ed241ab595fe7e2c5cc2, type: 2}
+  - {fileID: 11400000, guid: 7739200697018364698e9eff20bd8640, type: 2}
+  - {fileID: 11400000, guid: 71775c99f4d03bc4d886093aed10a6af, type: 2}
   - {fileID: 11400000, guid: e3a4b9bd9f324734aa6664cbc1ca48c8, type: 2}
   - {fileID: 11400000, guid: 7c53bd592efa14242a09a1836c487254, type: 2}
   - {fileID: 11400000, guid: 8f601da0fdc3767429136517695d9a7d, type: 2}
@@ -2028,9 +2030,9 @@ MonoBehaviour:
   finalScoreText: {fileID: 1786182497}
   bestScoreText: {fileID: 2010559628}
   heartImages:
-  - {fileID: 61630025}
-  - {fileID: 2069128490}
-  - {fileID: 20742390}
+  - {fileID: 1313145268}
+  - {fileID: 51061677}
+  - {fileID: 1876191304}
 --- !u!1 &1545696061
 GameObject:
   m_ObjectHideFlags: 0

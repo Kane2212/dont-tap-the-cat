@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 487309315046721414}
   - component: {fileID: 5705939975874642630}
-  - component: {fileID: 2865347231007343657}
   m_Layer: 0
   m_Name: Cat (1)
   m_TagString: Untagged
@@ -27,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 2792891548911615993}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5405, y: 1.5405, z: 1.5405}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 0.39109084, y: 0.39109084, z: 0.39109084}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6916169271837773842}
@@ -82,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6128040808062734533, guid: 60d9bfa7896f557458ee53ed97cb49be, type: 3}
+  m_Sprite: {fileID: 1899895582058450208, guid: e53e8702b18abb24f8fe2cc31ba60538, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,28 +92,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!95 &2865347231007343657
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2792891548911615993}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c5f1136bfa63cb04ca1095a3b0874911, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6662454776516991824
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,9 +101,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6916169271837773842}
-  - component: {fileID: 6629784410149475776}
-  - component: {fileID: 488138977431436122}
+  - component: {fileID: -162716701343477649}
   - component: {fileID: 2255349769797731670}
+  - component: {fileID: 3165061897501534800}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Cat
@@ -142,7 +119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6662454776516991824}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.6500015, y: 2.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -150,7 +127,7 @@ Transform:
   - {fileID: 487309315046721414}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6629784410149475776
+--- !u!114 &-162716701343477649
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,23 +136,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6662454776516991824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35aa85df4074da14b840034634f17fd5, type: 3}
+  m_Script: {fileID: 11500000, guid: 6005b553a3b9d384aa3169140afc112a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
---- !u!114 &488138977431436122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6662454776516991824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aaabb5815bc1784a9f7a6ece02fa03c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
+  m_EditorClassIdentifier: Assembly-CSharp::Target
+  definition: {fileID: 0}
 --- !u!58 &2255349769797731670
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -211,4 +175,16 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.35
+  m_Radius: 0.64
+--- !u!114 &3165061897501534800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662454776516991824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40d2f5f34087e9449414cfb5bf148b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetBehaviour

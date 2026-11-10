@@ -64,7 +64,9 @@ public class HealthManager : MonoBehaviour
             return;
         }
 
+        int previousHp = currentHp;
         currentHp = Mathf.Clamp(currentHp + amount, 0, maxHp);
+        GamePlayManager.instance?.RecordHealingReceived(currentHp - previousHp);
         HealthChanged?.Invoke(currentHp);
     }
 

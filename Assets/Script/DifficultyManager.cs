@@ -26,6 +26,7 @@ public class DifficultyManager : MonoBehaviour
     public void InitializeSession()
     {
         currentLevel = 1;
+        GamePlayManager.instance?.RecordHighestLevel(currentLevel);
         DifficultyChanged?.Invoke(currentLevel);
     }
 
@@ -33,6 +34,7 @@ public class DifficultyManager : MonoBehaviour
     {
         int calculatedLevel = Mathf.FloorToInt(score / 15f) + 1;
         currentLevel = Mathf.Max(1, calculatedLevel);
+        GamePlayManager.instance?.RecordHighestLevel(currentLevel);
         DifficultyChanged?.Invoke(currentLevel);
     }
 
@@ -41,9 +43,49 @@ public class DifficultyManager : MonoBehaviour
         return currentLevel;
     }
 
+    public UnlockPhase GetCurrentPhase()
+    {
+        if (currentLevel <= 3)
+        {
+            return UnlockPhase.Early;
+        }
+
+        if (currentLevel <= 6)
+        {
+            return UnlockPhase.Middle;
+        }
+
+        return UnlockPhase.Late;
+    }
+
+    public int GetMaxActiveTargets()
+    {
+        if (currentLevel <= 3)
+        {
+            return 3;
+        }
+
+        if (currentLevel <= 6)
+        {
+            return 5;
+        }
+
+        return 8;
+    }
+
     public int GetMaxActiveCats()
     {
-        return Mathf.Clamp(currentLevel, 1, 9);
+        if (currentLevel <= 3)
+        {
+            return 1;
+        }
+
+        if (currentLevel <= 6)
+        {
+            return 2;
+        }
+
+        return 3;
     }
 
     public float GetSafeSpawnInterval()
@@ -100,10 +142,10 @@ public class DifficultyManager : MonoBehaviour
 
         if (currentLevel <= 6)
         {
-            return 4;
+            return 3;
         }
 
-        return 6;
+        return 5;
     }
 
     public float GetWeightForPhase(UnlockPhase phase)
